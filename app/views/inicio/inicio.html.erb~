@@ -1,10 +1,8 @@
 <div id="background">
-
+</div>
 	<div id="menu">
-		<%= image_tag("cl-logo-1.png") %>
+		<%= image_tag("cl-logo.png") %>
 	</div>
 
 	<div id="content">
 	</div>
-
-</div>

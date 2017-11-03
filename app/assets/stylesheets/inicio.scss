@@ -1,7 +1,8 @@
 #background{
 	width: 100%;
-	-webkit-filter: sepia(100%) opacity(15%) saturate(120%) blur(20%);
-	filter: sepia(100%) opacity(15%) saturate(120%);
+	height: 100%;
+	-webkit-filter: sepia(100%) opacity(50%) saturate(120%) blur(1px);
+	filter: sepia(100%) opacity(50%) saturate(120%) blur(1px);
 	background-image: image-url("cl.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
@@ -10,4 +11,22 @@
 	z-index: 1;
 	top: 0;
 	left: 0;
+}
+
+#menu{
+	height: 100%;
+	position: fixed;
+	background-color: transparent;
+	width: 250px;
+	z-index: 2;
+}
+
+#content{
+	min-height: 100%;
+	position: fixed;
+	background-color: transparent;
+	width: -webkit-calc(100% - 250px);
+	width: -moz-calc(100% - 250px);
+	width: calc(100% - 250px);
+	z-index: 2;
 }

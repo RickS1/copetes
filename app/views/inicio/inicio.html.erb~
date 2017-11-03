@@ -2,6 +2,7 @@
 </div>
 <div id="menu">
 	<%= image_tag("cl-logo.png", alt: "Los Copetes Locos", id: "logo") %>
+	<p style="font-familiy:UndergroundNF;">Hola</p>
 </div>
 
 <div id="content">

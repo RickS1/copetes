@@ -1,6 +1,6 @@
 @font-face {
   font-family: "UndergroundNF";
-  src: asset-url('/fonts/UndergroundNF.otf') format("truetype");
+  src: asset-url('/fonts/UndergroundNF.ttf') format("truetype");
 }
 
 #background{

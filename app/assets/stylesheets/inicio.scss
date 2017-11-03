@@ -39,11 +39,29 @@ body{
 }
 
 .op-menu{
-	font-size: 45px;
+	font-size: 55px;
 	cursor: pointer;
 	color: #000;
 	list-style-type: none;
 	font-family: UndergroundNF;
+	-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	transform: rotate(0deg);
+	-webkit-transition: all 0.5s linear;
+	-moz-transition: all 0.5s linear;
+	-o-transition: all 0.5s linear;
+	transition: all 0.5s linear;
+}
+
+.op-menu:hover{
+	color: #FFD700;
+	-webkit-transform: rotate(-20deg);
+	-moz-transform: rotate(-20deg);
+	-ms-transform: rotate(-20deg);
+	-o-transform: rotate(-20deg);
+	transform: rotate(-20deg);
 }
 
 /* Sección de contenido */

@@ -56,7 +56,7 @@ body{
 }
 
 .op-menu:hover{
-	color: #FFD700;
+	color: #DAA520;
 	-webkit-transform: rotate(15deg);
 	-moz-transform: rotate(15deg);
 	-ms-transform: rotate(15deg);

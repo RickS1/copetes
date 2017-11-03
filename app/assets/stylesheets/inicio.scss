@@ -3,6 +3,10 @@
   src: asset-url('UndergroundNF.ttf') format("truetype");
 }
 
+body{
+	margin: 0;
+}
+
 #background{
 	width: 100%;
 	height: 100%;
@@ -17,9 +21,8 @@
 	top: 0;
 	left: 0;
 }
-body{
-	margin: 0;
-}
+
+/* Menú lateral */
 
 #menu{
 	height: 100%;
@@ -34,6 +37,14 @@ body{
 	width: 45%;
 	margin-top: 60px;
 }
+
+.op-menu{
+	font-size: 45px;
+	cursor: pointer;
+	color: #696969;
+}
+
+/* Sección de contenido */
 
 #content{
 	min-height: 100%;

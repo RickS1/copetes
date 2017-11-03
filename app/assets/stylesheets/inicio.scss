@@ -17,16 +17,22 @@
 	height: 100%;
 	position: fixed;
 	background-color: transparent;
-	width: 250px;
+	width: 550px;
 	z-index: 2;
+	text-align: center;
+}
+
+#logo{
+	width: 45%;
+	
 }
 
 #content{
 	min-height: 100%;
 	position: fixed;
 	background-color: transparent;
-	width: -webkit-calc(100% - 250px);
-	width: -moz-calc(100% - 250px);
-	width: calc(100% - 250px);
+	width: -webkit-calc(100% - 550px);
+	width: -moz-calc(100% - 550px);
+	width: calc(100% - 550px);
 	z-index: 2;
 }

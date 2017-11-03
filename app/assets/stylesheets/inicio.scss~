@@ -12,3 +12,21 @@
 	top: 0;
 	left: 0;
 }
+
+#menu{
+	height: 100%;
+	position: fixed;
+	background-color: transparent;
+	width: 250px;
+	z-index: 2;
+}
+
+#content{
+	min-height: 100%;
+	position: fixed;
+	background-color: transparent;
+	width: -webkit-calc(100% - 250px);
+	width: -moz-calc(100% - 250px);
+	width: calc(100% - 250px);
+	z-index: 2;
+}

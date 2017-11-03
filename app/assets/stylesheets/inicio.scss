@@ -1,3 +1,13 @@
-// Place all the styles related to the inicio controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+#background{
+	width: 100%;
+	-webkit-filter: sepia(100%) opacity(15%) saturate(120%) blur(20%);
+	filter: sepia(100%) opacity(15%) saturate(120%);
+	background-image: image-url("cl.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+}

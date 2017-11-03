@@ -7,7 +7,7 @@
 	width: 100%;
 	-webkit-filter: sepia(100%) opacity(15%) saturate(120%) blur(20%);
 	filter: sepia(100%) opacity(15%) saturate(120%);
-	background-image: image-url("cl.jpg");
+	background-image: "<%= image_url("cl.jpg") %>";
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;

@@ -42,6 +42,8 @@ body{
 	font-size: 45px;
 	cursor: pointer;
 	color: #696969;
+	list-style-type: none;
+	font-family: UndergroundNF;
 }
 
 /* Sección de contenido */

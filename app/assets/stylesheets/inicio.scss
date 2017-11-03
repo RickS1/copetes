@@ -23,7 +23,6 @@ body{
 	width: 550px;
 	z-index: 2;
 	text-align: center;
-	float: left;
 }
 
 #logo{
@@ -39,5 +38,5 @@ body{
 	width: -moz-calc(100% - 550px);
 	width: calc(100% - 550px);
 	z-index: 2;
-	float: left;
+	left: 550px;
 }

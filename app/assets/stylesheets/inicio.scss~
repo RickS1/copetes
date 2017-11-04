@@ -70,8 +70,8 @@ body{
 }
 
 #menu-list{
-	margin-top: 25%;
-	margin-left: 165px;
+	margin-top: 23%;
+	margin-left: 185px;
 }
 
 .op-menu{

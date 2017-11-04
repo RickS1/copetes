@@ -18,6 +18,14 @@
 <% end %>
 
 <div id="menu-h">
+	<ul style="float:left;">
+		<li class="op-menu">Inicio</li>
+		<li class="op-menu">Biografía</li>
+		<li class="op-menu">Integrantes</li>
+		<li class="op-menu">Material</li>
+		<li class="op-menu">Galería</li>
+		<li class="op-menu">Contacto</li>
+	</ul>
 </div>
 <%= image_tag("cl-logo.png", alt: "Los Copetes Locos", id: "logo-h") %>
 

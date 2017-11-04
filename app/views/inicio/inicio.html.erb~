@@ -18,7 +18,7 @@
 <% end %>
 
 <div id="menu-h">
-	<ul style="float:left;">
+	<ul id="menu-list">
 		<li class="op-menu">Inicio</li>
 		<li class="op-menu">Biografía</li>
 		<li class="op-menu">Integrantes</li>

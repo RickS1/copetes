@@ -39,7 +39,7 @@ body{
 }
 
 #menu-h{
-	width: 100%;
+	width: 300%;
 	height: 300px;
 	position: fixed;
 	background-image: image-url("paper.jpeg");

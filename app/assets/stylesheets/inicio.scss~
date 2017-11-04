@@ -60,7 +60,7 @@ body{
 	box-shadow: 25px 0 25px #000;
 }
 
-#logo{
+#logo-h{
 	width: 55px;
 	position: fixed;
 	top: 50px;

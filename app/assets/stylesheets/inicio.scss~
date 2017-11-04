@@ -47,7 +47,7 @@ body{
 	background-position: center;
 	background-size: cover;
 	z-index: 2;
-	top: -20%;
+	top: -235px;
 	left: 50%;
 	-webkit-transform: rotate(-3deg) translate(-50%,0);
 	-moz-transform: rotate(-3deg) translate(-50%,0);

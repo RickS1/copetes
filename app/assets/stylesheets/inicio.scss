@@ -59,6 +59,13 @@ body{
 	box-shadow: 25px 0 25px #000;
 }
 
+.reel{
+	background-image: image-url("reel.png");
+	background-repeat: repeat-y;
+	background-position: center;
+	background-size: contain;
+}
+
 #logo-h{
 	max-width: 150px;
 	min-width: 90px;

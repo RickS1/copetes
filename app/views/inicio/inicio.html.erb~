@@ -17,11 +17,7 @@
 </div>
 <% end %>
 
-<div class="reel" style="left:0;">
-</div>
 
-<div class="reel" style="right:0;">
-</div>
 
 <div id="menu-h">
 	<ul id="menu-list">
@@ -35,5 +31,9 @@
 <%= image_tag("cl-logo.png", alt: "Los Copetes Locos", id: "logo-h") %>
 
 <div id="cont-h">
+<div class="reel" style="left:0;">
+</div>
 
+<div class="reel" style="right:0;">
+</div>
 </div>

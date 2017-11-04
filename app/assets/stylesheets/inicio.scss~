@@ -60,7 +60,7 @@ body{
 }
 
 .reel{
-	position: fixed;
+	position: relative;
 	height: 100%;
 	width: 40px;
 	background-image: image-url("reel.png");

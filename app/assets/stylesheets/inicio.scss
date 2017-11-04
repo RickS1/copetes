@@ -60,6 +60,9 @@ body{
 }
 
 .reel{
+	position: fixed;
+	height: 100%;
+	width: 50px;
 	background-image: image-url("reel.png");
 	background-repeat: repeat-y;
 	background-position: center;

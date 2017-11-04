@@ -48,13 +48,13 @@ body{
 	background-size: cover;
 	z-index: 2;
 	text-align: center;
-	top: 0;
+	top: -160px;
 	left: 50%;
-	-webkit-transform: rotate(-7deg) translate(-50%,-50%);
-	-moz-transform: rotate(-7deg) translate(-50%,-50%);
-	-ms-transform: rotate(-7deg) translate(-50%,-50%);
-	-o-transform: rotate(-7deg) translate(-50%,-50%);
-	transform: rotate(-7deg) translate(-50%,-50%);
+	-webkit-transform: rotate(-5deg) translate(-50%,-50%);
+	-moz-transform: rotate(-5deg) translate(-50%,-50%);
+	-ms-transform: rotate(-5deg) translate(-50%,-50%);
+	-o-transform: rotate(-5deg) translate(-50%,-50%);
+	transform: rotate(-5deg) translate(-50%,-50%);
 }
 
 .op-menu{

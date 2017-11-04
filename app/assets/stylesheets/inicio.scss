@@ -50,11 +50,14 @@ body{
 	text-align: center;
 	top: -160px;
 	left: 50%;
-	-webkit-transform: rotate(-5deg) translate(-50%,-50%);
-	-moz-transform: rotate(-5deg) translate(-50%,-50%);
-	-ms-transform: rotate(-5deg) translate(-50%,-50%);
-	-o-transform: rotate(-5deg) translate(-50%,-50%);
-	transform: rotate(-5deg) translate(-50%,-50%);
+	-webkit-transform: rotate(-3deg) translate(-50%,-50%);
+	-moz-transform: rotate(-3deg) translate(-50%,-50%);
+	-ms-transform: rotate(-3deg) translate(-50%,-50%);
+	-o-transform: rotate(-3deg) translate(-50%,-50%);
+	transform: rotate(-3deg) translate(-50%,-50%);
+	-webkit-box-shadow: 3px 0 3px rgba(0,0,0,0.4);
+	-moz-box-shadow: 3px 0 3px rgba(0,0,0,0.4);
+	box-shadow: 3px 0 3px rgba(0,0,0,0.4);
 }
 
 .op-menu{

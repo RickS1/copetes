@@ -39,7 +39,7 @@ body{
 }
 
 #menu-h{
-	width: 300%;
+	width: 104%;
 	height: 300px;
 	position: fixed;
 	background-image: image-url("paper.jpeg");
@@ -47,8 +47,7 @@ body{
 	background-position: center;
 	background-size: cover;
 	z-index: 2;
-	text-align: center;
-	top: -145px;
+	top: -85px;
 	left: 50%;
 	-webkit-transform: rotate(-3deg) translate(-50%,-50%);
 	-moz-transform: rotate(-3deg) translate(-50%,-50%);
@@ -63,7 +62,7 @@ body{
 #logo-h{
 	width: 150px;
 	position: fixed;
-	top: 20px;
+	top: 25px;
 	left: 35px;
 	z-index: 3;
 }

@@ -68,9 +68,16 @@ body{
 	z-index: 3;
 }
 
+#menu-list{
+	margin-top: 25%;
+	margin-left: 100px;
+}
+
 .op-menu{
-	font-size: 55px;
+	float: left;
+	font-size: 30px;
 	cursor: pointer;
+	margin: 0 4px;
 	color: #000;
 	list-style-type: none;
 	font-family: UndergroundNF;

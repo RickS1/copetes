@@ -49,12 +49,12 @@ body{
 	z-index: 2;
 	text-align: center;
 	top: 0;
-	left: 0;
-	-webkit-transform: rotate(-7deg);
-	-moz-transform: rotate(-7deg);
-	-ms-transform: rotate(-7deg);
-	-o-transform: rotate(-7deg);
-	transform: rotate(-7deg);
+	left: 50%;
+	-webkit-transform: rotate(-7deg) translate(-50%,0);
+	-moz-transform: rotate(-7deg) translate(-50%,0);
+	-ms-transform: rotate(-7deg) translate(-50%,0);
+	-o-transform: rotate(-7deg) translate(-50%,0);
+	transform: rotate(-7deg) translate(-50%,0);
 }
 
 .op-menu{

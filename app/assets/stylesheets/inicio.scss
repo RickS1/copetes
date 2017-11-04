@@ -50,11 +50,11 @@ body{
 	text-align: center;
 	top: 0;
 	left: 50%;
-	-webkit-transform: rotate(-7deg) translate(-50%,0);
-	-moz-transform: rotate(-7deg) translate(-50%,0);
-	-ms-transform: rotate(-7deg) translate(-50%,0);
-	-o-transform: rotate(-7deg) translate(-50%,0);
-	transform: rotate(-7deg) translate(-50%,0);
+	-webkit-transform: rotate(-7deg) translate(-50%,-50%);
+	-moz-transform: rotate(-7deg) translate(-50%,-50%);
+	-ms-transform: rotate(-7deg) translate(-50%,-50%);
+	-o-transform: rotate(-7deg) translate(-50%,-50%);
+	transform: rotate(-7deg) translate(-50%,-50%);
 }
 
 .op-menu{

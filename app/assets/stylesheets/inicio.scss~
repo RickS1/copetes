@@ -47,7 +47,7 @@ body{
 	background-position: center;
 	background-size: cover;
 	z-index: 2;
-	top: -85px;
+	top: -20%;
 	left: 50%;
 	-webkit-transform: rotate(-3deg) translate(-50%,-50%);
 	-moz-transform: rotate(-3deg) translate(-50%,-50%);
@@ -60,7 +60,9 @@ body{
 }
 
 #logo-h{
-	width: 150px;
+	max-width: 150px;
+	min-width: 70px;
+	width:50%;
 	position: fixed;
 	top: 25px;
 	left: 35px;
@@ -69,14 +71,14 @@ body{
 
 #menu-list{
 	margin-top: 25%;
-	margin-left: 100px;
+	margin-left: 165px;
 }
 
 .op-menu{
 	float: left;
-	font-size: 30px;
+	font-size: 29px;
 	cursor: pointer;
-	margin: 0 4px;
+	margin: 0 6px;
 	color: #000;
 	list-style-type: none;
 	font-family: UndergroundNF;

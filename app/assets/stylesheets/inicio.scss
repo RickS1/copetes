@@ -12,7 +12,7 @@ body{
 	height: 100%;
 	-webkit-filter: sepia(100%) opacity(50%) saturate(120%) blur(1px);
 	filter: sepia(100%) opacity(50%) saturate(120%) blur(1px);
-	background-image: image-url("cl.jpg");
+	background-image: image-url("cl-inst.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -47,7 +47,7 @@ body{
 	background-position: center;
 	background-size: cover;
 	z-index: 2;
-	top: -85px;
+	top: -20%;
 	left: 50%;
 	-webkit-transform: rotate(-3deg) translate(-50%,-50%);
 	-moz-transform: rotate(-3deg) translate(-50%,-50%);
@@ -60,7 +60,9 @@ body{
 }
 
 #logo-h{
-	width: 150px;
+	max-width: 150px;
+	min-width: 70px;
+	width:50%;
 	position: fixed;
 	top: 25px;
 	left: 35px;

@@ -39,7 +39,7 @@ body{
 }
 
 #menu-h{
-	width: 104%;
+	width: 110%;
 	height: 300px;
 	position: fixed;
 	background-image: image-url("paper.jpeg");
@@ -62,7 +62,7 @@ body{
 #logo-h{
 	max-width: 150px;
 	min-width: 60px;
-	width: 40%;
+	width: 15%;
 	position: fixed;
 	top: 25px;
 	left: 35px;

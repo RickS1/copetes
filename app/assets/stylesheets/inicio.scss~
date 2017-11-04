@@ -59,9 +59,19 @@ body{
 	box-shadow: 25px 0 25px #000;
 }
 
-.reel{
+.body{
 	position: relative;
-	height: 100%;
+	min-height: 100%;
+	float: left;
+}
+
+.wrapper{
+	width: -webkit-calc(100%-80px);
+	width: -moz-calc(100%-80px);
+	width: calc(100%-80px);
+}
+
+.reel{
 	width: 40px;
 	background-image: image-url("reel.png");
 	background-repeat: repeat-y;

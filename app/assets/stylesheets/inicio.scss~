@@ -38,6 +38,24 @@ body{
 	margin-top: 60px;
 }
 
+#menu-h{
+	width: 100%;
+	position: fixed;
+	background-image: image-url("paper.jpeg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	z-index: 2;
+	text-align: center;
+	top: 0;
+	left: 0;
+	-webkit-transform: rotate(-10deg);
+	-moz-transform: rotate(-10deg);
+	-ms-transform: rotate(-10deg);
+	-o-transform: rotate(-10deg);
+	transform: rotate(-10deg);
+}
+
 .op-menu{
 	font-size: 55px;
 	cursor: pointer;
@@ -57,11 +75,11 @@ body{
 
 .op-menu:hover{
 	color: #DAA520;
-	-webkit-transform: rotate(15deg);
-	-moz-transform: rotate(15deg);
-	-ms-transform: rotate(15deg);
-	-o-transform: rotate(15deg);
-	transform: rotate(15deg);
+	-webkit-transform: rotate(10deg);
+	-moz-transform: rotate(10deg);
+	-ms-transform: rotate(10deg);
+	-o-transform: rotate(10deg);
+	transform: rotate(10deg);
 }
 
 /* Sección de contenido */

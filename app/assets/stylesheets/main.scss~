@@ -91,4 +91,11 @@
 .pic-gray{
 	-webkit-filter: saturate(95%) brightness(95%) contrast(50%) grayscale(100%);
 	filter: saturate(95%) brightness(95%) contrast(50%) grayscale(100%);
+	position: absolute;
+	z-index: 1;
+	-webkit-transform: rotate(0deg) translate(75px,15px);
+	-moz-transform: rotate(0deg) translate(75px,15px);
+	-ms-transform: rotate(0deg) translate(75px,15px);
+	-o-transform: rotate(0deg) translate(75px,15px);
+	transform: rotate(0deg) translate(75px,15px);
 }

@@ -89,8 +89,8 @@
 }
 
 .pic-gray{
-	-webkit-filter: saturate(95%) brightness(95%) contrast(50%) grayscale(100%);
-	filter: saturate(95%) brightness(95%) contrast(50%) grayscale(100%);
+	-webkit-filter: saturate(95%) brightness(150%) contrast(75%) grayscale(100%);
+	filter: saturate(95%) brightness(150%) contrast(75%) grayscale(100%);
 	position: absolute;
 	z-index: 1;
 	-webkit-transform: rotate(0deg) translate(75px,15px);
@@ -98,7 +98,4 @@
 	-ms-transform: rotate(0deg) translate(75px,15px);
 	-o-transform: rotate(0deg) translate(75px,15px);
 	transform: rotate(0deg) translate(75px,15px);
-	-webkit-box-shadow: 15px 0 25px #000;
-	-moz-box-shadow: 15px 0 25px #000;
-	box-shadow: 15px 0 25px #000;
 }

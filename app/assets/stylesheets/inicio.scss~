@@ -52,13 +52,13 @@ body{
 }
 
 .wrapper{
-	width: -webkit-calc(100% - 80px);
-	width: -moz-calc(100% - 80px);
-	width: calc(100% - 80px);
+	width: -webkit-calc(100% - 64px);
+	width: -moz-calc(100% - 64px);
+	width: calc(100% - 64px);
 }
 
 .reel{
-	width: 40px;
+	width: 32px;
 	background-image: image-url("reel.png");
 	background-repeat: repeat-y;
 	background-position: center;

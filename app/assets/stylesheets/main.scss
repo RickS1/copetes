@@ -28,12 +28,14 @@
 .sect{
 	width: 100%;
 	padding-top: 145px;
-	overflow-y: auto;
+	overflow-y: visible;
 }
 
 .text-bio{
 	font-family: AirstreamNF;
 	font-size: 25px;
+	width: 90%;
+	text-align: justify;
 }
 
 /* Sección de integrantes */

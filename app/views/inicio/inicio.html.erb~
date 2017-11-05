@@ -36,7 +36,7 @@
 <div class="body wrapper">
 
 	<div id="inicio">
-		<div>
+		<div style="margin-top:200px;">
 			<span style="font-family:DriveThru;">BIENVENIDOS</span>
 		</div>
 		<div class="scroll-downs">

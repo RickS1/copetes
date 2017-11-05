@@ -67,3 +67,10 @@ $(window).on("resize",function(){
 	});
 	$(window).trigger("scroll");
 });
+
+window.onload = function() {
+	if (screen.width < 959) {
+		var mvp = document.getElementById('vp');
+		mvp.setAttribute('content','width=959');
+	}
+}

@@ -66,6 +66,7 @@ $(window).on("resize",function(){
 		minHeight: w_height + "px"
 	});
 	$(window).trigger("scroll");
+	$(window).trigger("load");
 });
 
 window.onload = function() {

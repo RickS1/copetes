@@ -4,4 +4,7 @@ $(document).on("ready page:load",function(){
 		background: "rgba(150,150,150,0.6)",
 		cursorcolor: "red"
 	});
+	$("#inicio").css({
+		height: $("#background").height()
+	});
 });

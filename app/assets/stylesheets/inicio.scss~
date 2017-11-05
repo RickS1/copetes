@@ -10,8 +10,8 @@ body{
 #background{
 	width: 100%;
 	height: 100%;
-	-webkit-filter: sepia(100%) opacity(60%) saturate(130%) blur(1px);
-	filter: sepia(100%) opacity(60%) saturate(130%) blur(1px);
+	-webkit-filter: sepia(100%) opacity(65%) saturate(130%) blur(1px);
+	filter: sepia(100%) opacity(65%) saturate(130%) blur(1px);
 	background-image: image-url("cl-inst.jpg");
 	background-repeat: no-repeat;
 	background-position: center;

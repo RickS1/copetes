@@ -66,4 +66,20 @@
 	border: 15px solid #fff;
 	border-bottom: 30px solid #fff;
 	display: inline-block;
+	background-color: #fff;
+	position: absolute;
+	z-index: 0;
+	-webkit-transform: rotate(3deg) translate(0,0);
+	-moz-transform: rotate(3deg) translate(0,0);
+	-ms-transform: rotate(3deg) translate(0,0);
+	-o-transform: rotate(3deg) translate(0,0);
+	transform: rotate(3deg) translate(0,0);
+	-webkit-box-shadow:  inset 0px 0px 100px rgba(0,0,20,1);
+	-moz-box-shadow:  inset 0px 0px 100px rgba(0,0,20,1);
+	box-shadow:  inset 0px 0px 100px rgba(0,0,20,1);
+}
+
+.pic-sat{
+	-webkit-filter: saturate(140%) blur(1px) brightness(60%) contrast(130%);
+	filter: saturate(140%) blur(1px) brightness(60%) contrast(130%);
 }

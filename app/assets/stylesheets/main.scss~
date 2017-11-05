@@ -97,5 +97,5 @@
 	-moz-transform: rotate(0deg) translate(175px,35px);
 	-ms-transform: rotate(0deg) translate(175px,35px);
 	-o-transform: rotate(0deg) translate(175px,35px);
-	transform: rotate(0deg) translate(175px,25px);
+	transform: rotate(0deg) translate(175px,35px);
 }

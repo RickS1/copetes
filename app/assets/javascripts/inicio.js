@@ -21,7 +21,7 @@ $(document).on("ready page:load",function(){
 $(window).on("resize",function(){
 	var w_height = $("#background").height();
 	var reels = $(".reel");
-	var body_height = $("#b_wrapper")[0].scrollHeight;
+	var body_height = $("#b_wrapper")[0].offsetHeight;
 	$("#inicio").css({
 		height: w_height + "px"
 	});

@@ -130,3 +130,15 @@
 	padding-left: 35px;
 	color: #1E90FF;
 }
+
+.campo{
+	font-family: MetroRetroNF;
+	font-size: 30px;
+	color: #B8860B;
+}
+
+.valor{
+	font-family: IronickNF;
+	font-size: 25px;
+	color: #000;
+}

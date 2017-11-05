@@ -131,6 +131,15 @@
 	color: #1E90FF;
 }
 
+.datos{
+	width: 90%;
+	margin: 0 auto;
+	background-color: rgba(119,136,153,0.7);
+	-webkit-box-shadow: 25px 0 25px #000;
+	-moz-box-shadow: 25px 0 25px #000;
+	box-shadow: 25px 0 25px #000;
+}
+
 .campo{
 	font-family: MetroRetroNF;
 	font-size: 30px;

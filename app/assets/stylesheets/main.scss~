@@ -78,3 +78,8 @@
 	-moz-box-shadow:  inset 0px 0px 100px rgba(0,0,20,1);
 	box-shadow:  inset 0px 0px 100px rgba(0,0,20,1);
 }
+
+.pic-sat{
+	-webkit-filter: saturate(140%) blur(1px) brightness(60%) contrast(130%);
+	filter: saturate(140%) blur(1px) brightness(60%) contrast(130%);
+}

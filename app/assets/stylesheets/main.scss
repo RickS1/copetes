@@ -10,7 +10,11 @@
 }
 
 #img-main{
-	width: 40%;
+	width: 50%;
+}
+
+@media only screen and (max-width: 690px){
+	#img-main { width: 75%; }
 }
 
 #scroll-w{

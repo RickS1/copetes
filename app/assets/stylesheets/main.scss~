@@ -132,9 +132,9 @@
 }
 
 .datos{
-	width: 90%;
+	width: 75%;
 	margin: 0 auto;
-	padding: 0 20px 0 20px;
+	padding: 3px 25px;
 	background-color: rgba(112,128,144,0.8);
 	-webkit-box-shadow: 25px 0 25px #000;
 	-moz-box-shadow: 25px 0 25px #000;

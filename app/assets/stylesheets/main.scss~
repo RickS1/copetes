@@ -13,7 +13,7 @@
 }
 
 #scroll-w{
-	height: 60px;
+	height: 100px;
 	width: 100%;
 	position: relative;
 }

@@ -2,4 +2,21 @@
 	background-color: rgba(169,169,169,0.7);
 	width: 100%;
 	position: relative;
+	padding-top: 130px;
+}
+
+#main-img-w{
+	text-align: center;
+	height: -webkit-calc(100% - 60px);
+	height: -moz-calc(100% - 60px);
+	height: calc(100% - 60px);
+}
+
+#img-main{
+	
+}
+
+#scroll-w{
+	height: 60px;
+	width: 100%;
 }

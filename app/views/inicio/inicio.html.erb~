@@ -36,8 +36,8 @@
 <div class="body wrapper">
 
 	<div id="inicio">
-		<div style="margin-top:200px;">
-			<span style="font-family:MetroRetroNF;">BIENVENIDOS</span>
+		<div id="main-img-w" style="padding-top:200px;text-align:center">
+			<%= image_tag("main.png",id: "img-main") %>
 		</div>
 		<div class="scroll-downs">
 			<div class="mousey">

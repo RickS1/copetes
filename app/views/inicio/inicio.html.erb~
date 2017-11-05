@@ -29,7 +29,7 @@
 		</div>
 	</div>
 
-	<div id="bio">
+	<div id="bio" class="sect">
 		<div class="sect-title">Biografía</div>
 		<div class="text-bio"> 
 			<p>Los copetes locos dieron inicio a su carrera musical el 03 de Enero del 2015, la banda esta formada por Daniel Aguilar (bajo, voz y coros), Erik Tenorio (Guitarra rítmica, voz y coros), Giovanny Zárate (Guitarra armónica, voz y coros) y Hugo Aguilar (batería). El proyecto surge por el gusto a la escena del rock and roll de los años 50's y 60's en los cuatro integrantes, en donde dicho estilo influenció desde la niñez a cada uno de ellos; también surge por la inquietud de rescatar la el rock and roll  mexicano y crear música propia basada en dicho estilo.</p>
@@ -40,19 +40,27 @@ Algunas de las influencias mas fuertes en la música son Chuck Berry, Little Ric
 		</div>
 	</div>
 
-	<div id="integrantes">
+	<div id="integrantes" class="sect">
 		<div class="sect-title">Integrantes</div>
+		<div class=text">
+			<div class="scrapbook">
+				<div class="photos">
+				</div>
+				<div class="desc">
+				</div>
+			</div>
+		</div>
 	</div>
 
-	<div id="material">
+	<div id="material" class="sect">
 		<div class="sect-title">Material</div>
 	</div>
 
-	<div id="galeria">
+	<div id="galeria" class="sect">
 		<div class="sect-title">Galería</div>
 	</div>
 
-	<div id="contacto">
+	<div id="contacto" class="sect">
 		<div class="sect-title">Contacto</div>
 	</div>
 

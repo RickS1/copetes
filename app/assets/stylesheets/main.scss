@@ -28,6 +28,7 @@
 .sect{
 	width: 100%;
 	padding-top: 145px;
+	overflow-y: auto;
 }
 
 .text-bio{
@@ -37,3 +38,14 @@
 
 /* Sección de integrantes */
 
+.scrapbook{
+	width:100%;
+	height: 150px;
+}
+
+.photos, .desc{
+	height: 100%;
+	max-width: 250px;
+	width: 50%;
+	float: left;
+}

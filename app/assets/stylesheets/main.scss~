@@ -25,9 +25,10 @@
 
 /* Sección de biografía */
 
-#bio{
+.sect{
 	width: 100%;
 	padding-top: 145px;
+	overflow-y: auto;
 }
 
 .text-bio{
@@ -36,7 +37,8 @@
 }
 
 /* Sección de integrantes */
-#bio{
-	width: 100%;
-	padding-top: 145px;
+
+.scrapbook{
+	width:100%;
+	height: 150px;
 }

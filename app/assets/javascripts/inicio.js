@@ -53,4 +53,5 @@ $(window).on("resize",function(){
 	$("#bio").css({
 		height: w_height + "px"
 	});
+	$(window).trigger("scroll");
 });

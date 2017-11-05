@@ -64,19 +64,20 @@
 
 .photo-1{
 	border: 15px solid #fff;
-	border-bottom: 30px solid #fff;
+	border-bottom: 45px solid #fff;
 	display: inline-block;
 	background-color: #fff;
 	position: absolute;
 	z-index: 0;
+	height: 150px;
 	-webkit-transform: rotate(3deg) translate(0,0);
 	-moz-transform: rotate(3deg) translate(0,0);
 	-ms-transform: rotate(3deg) translate(0,0);
 	-o-transform: rotate(3deg) translate(0,0);
 	transform: rotate(3deg) translate(0,0);
-	-moz-border-image: -moz-linear-gradient(45deg,#CD853F,#FFFFFF);
-  -webkit-border-image: -webkit-linear-gradient(45deg,#CD853F,#FFFFFF);
-  border-image: linear-gradient(45deg,#CD853F,#FFFFFF);
+	-moz-border-image: -moz-linear-gradient(45deg,#CD853F,#F5DEB3) 1;
+  -webkit-border-image: -webkit-linear-gradient(45deg,#CD853F,#F5DEB3) 1;
+  border-image: linear-gradient(45deg,#CD853F,#F5DEB3) 1;
 	-webkit-box-shadow: 25px 0 25px #000;
 	-moz-box-shadow: 25px 0 25px #000;
 	box-shadow: 25px 0 25px #000;

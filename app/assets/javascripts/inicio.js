@@ -9,6 +9,8 @@ $(document).on("ready page:load",function(){
 
 $(window).on("resize",function(){
 	var w_height = $("#background").height();
+	var reels = $(".reel");
+	var body_height = $("#b_wrapper").height();
 	$("#inicio").css({
 		height: w_height + "px"
 	});
@@ -17,5 +19,10 @@ $(window).on("resize",function(){
 	});
 	$("#img-main").css({
 		height: (w_height - 215) + "px"
+	});
+	reels.each(function(d){
+		reels[i].css({
+			height: body_height + "px"
+		});
 	});
 });

@@ -114,3 +114,8 @@ body{
 	width:100%;
 }
 
+.sect-title{
+	font-family: ParkLaneNF;
+	color: #DAA520;
+	font-size: 45px;
+}

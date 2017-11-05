@@ -101,10 +101,10 @@
 }
 
 .pic_sepia{
-	-webkit-filter: saturate(95%) brightness(150%) contrast(75%) sepia(100%);
-	filter: saturate(95%) brightness(150%) contrast(75%) sepia(100%);
+	-webkit-filter: saturate(75%) brightness(120%) contrast(95%) sepia(100%);
+	filter: saturate(75%) brightness(120%) contrast(95%) sepia(100%);
 	position: absolute;
-	z-index: 1;
+	z-index: 0;
 	-webkit-transform: rotate(-6deg) translate(135px,165px);
 	-moz-transform: rotate(-6deg) translate(135px,165px);
 	-ms-transform: rotate(-6deg) translate(135px,165px);

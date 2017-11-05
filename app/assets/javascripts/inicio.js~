@@ -25,7 +25,7 @@ $(window).on("scroll",function(){
 		var s = $(window).scrollTop();
 		if(s >= tops[i][0] && s < tops[i][1]){
 			for(var j in ops){
-				$("#op-"+ops[j])[0]-className.replace("op-menu-active","");
+				$("#op-"+ops[j])[0].className.replace("op-menu-active","");
 			}
 			if(!$("#op-"+tops[i][2]).classList.contains("op-menu-active"))
 				$("#op-"+tops[i][2])[0].className += " op-menu-active";

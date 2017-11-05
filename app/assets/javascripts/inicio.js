@@ -27,7 +27,7 @@ $(window).on("scroll",function(){
 			for(var j in ops){
 				$("#op-"+ops[j])[0].className.replace("op-menu-active","");
 			}
-			if(!$("#op-"+tops[i][2]).classList.contains("op-menu-active"))
+			if($("#op-"+tops[i][2])[0].className.indexOf("op-menu-active") < 0)
 				$("#op-"+tops[i][2])[0].className += " op-menu-active";
 			break;
 		}

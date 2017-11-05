@@ -11,4 +11,7 @@ $(document).on("ready page:load",function(){
 	$("#main-img-w").css({
 		height: (w_height - 60) + "px"
 	});
+	$("#image-main").css({
+		height: (w_height - 175) + "px"
+	});
 });

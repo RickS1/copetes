@@ -2,11 +2,11 @@
 	background-color: rgba(169,169,169,0.7);
 	width: 100%;
 	position: relative;
-	padding-top: 130px;
 }
 
 #main-img-w{
 	text-align: center;
+	padding-top: 115px;
 }
 
 #img-main{

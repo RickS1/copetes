@@ -21,7 +21,7 @@ $(window).on("resize",function(){
 		height: (w_height - 215) + "px"
 	});
 	reels.each(function(d){
-		reels[i].css({
+		reels[d].css({
 			height: body_height + "px"
 		});
 	});

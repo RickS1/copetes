@@ -13,3 +13,4 @@
  *= require_self
  */
 @import "inicio";
+@import "scroll";

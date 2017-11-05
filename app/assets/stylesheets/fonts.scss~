@@ -22,3 +22,8 @@
 	font-family: "IronickNF";
 	src: asset-url('IronickNF.ttf') format("truetype");
 }
+
+@font-face {
+	font-family: "ParkLaneNF";
+	src: asset-url('ParkLaneNF.ttf') format("truetype");
+}

@@ -23,7 +23,7 @@ $(window).on("scroll",function(){
 	var ops = ["bio","integrantes","material","galeria","contacto"];
 			for(var j in ops){
 				$("#op-"+ops[j])[0].className.replace(/ +op-menu-active/,"");
-				console.log($("#op-"+ops[j])[0].className);
+				console.log(ops[j] + " -- " + $("#op-"+ops[j])[0].className);
 			}
 	for(var i in tops){
 		var s = $(window).scrollTop();

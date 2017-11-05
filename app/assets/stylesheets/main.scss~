@@ -70,11 +70,11 @@
 	position: absolute;
 	z-index: 0;
 	height: 150px;
-	-webkit-transform: rotate(3deg) translate(0,0);
-	-moz-transform: rotate(3deg) translate(0,0);
-	-ms-transform: rotate(3deg) translate(0,0);
-	-o-transform: rotate(3deg) translate(0,0);
-	transform: rotate(3deg) translate(0,0);
+	-webkit-transform: rotate(3deg) translate(25px,0);
+	-moz-transform: rotate(3deg) translate(25px,0);
+	-ms-transform: rotate(3deg) translate(25px,0);
+	-o-transform: rotate(3deg) translate(25px,0);
+	transform: rotate(3deg) translate(25px,0);
 	-moz-border-image: -moz-linear-gradient(-72deg,#CD853F,#F5DEB3) 1;
   -webkit-border-image: -webkit-linear-gradient(-72deg,#CD853F,#F5DEB3) 1;
   border-image: linear-gradient(-72deg,#CD853F,#F5DEB3) 1;
@@ -86,4 +86,9 @@
 .pic-sat{
 	-webkit-filter: saturate(125%) brightness(75%) contrast(150%);
 	filter: saturate(125%) brightness(75%) contrast(150%);
+}
+
+.pic-gray{
+	-webkit-filter: saturate(95%) brightness(95%) contrast(50%) grayscale(100%);
+	filter: saturate(95%) brightness(95%) contrast(50%) grayscale(100%);
 }

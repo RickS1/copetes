@@ -134,7 +134,8 @@
 .datos{
 	width: 90%;
 	margin: 0 auto;
-	background-color: rgba(119,136,153,0.7);
+	padding: 0 20px 0 20px;
+	background-color: rgba(112,128,144,0.8);
 	-webkit-box-shadow: 25px 0 25px #000;
 	-moz-box-shadow: 25px 0 25px #000;
 	box-shadow: 25px 0 25px #000;

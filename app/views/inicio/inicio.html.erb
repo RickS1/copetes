@@ -1,31 +1,12 @@
 <div id="background">
 </div>
-<% if false %>
-<div id="menu">
-	<%= image_tag("cl-logo.png", alt: "Los Copetes Locos", id: "logo") %>
-	<ul>
-		<li class="op-menu">Inicio</li>
-		<li class="op-menu">Biografía</li>
-		<li class="op-menu">Integrantes</li>
-		<li class="op-menu">Material</li>
-		<li class="op-menu">Galería</li>
-		<li class="op-menu">Contacto</li>
-	</ul>
-</div>
-
-<div id="content">
-</div>
-<% end %>
-
-
-
 <div id="menu-h">
 	<ul id="menu-list">
-		<li class="op-menu"><a href="#bio">Biografía</a></li>
-		<li class="op-menu">Integrantes</li>
-		<li class="op-menu">Material</li>
-		<li class="op-menu">Galería</li>
-		<li class="op-menu">Contacto</li>
+		<li class="op-menu" id="op-bio"><a href="#bio">Biografía</a></li>
+		<li class="op-menu" id="op-integrantes"><a href="#integrantes">Integrantes</a></li>
+		<li class="op-menu" id="op-material"><a href="#material">Material</a></li>
+		<li class="op-menu" id="op-galeria"><a href="#galeria">Galería</a></li>
+		<li class="op-menu" id="op-contacto"><a href="#contacto">Contacto</a></li>
 	</ul>
 </div>
 <%= image_tag("cl-logo.png", alt: "Los Copetes Locos", id: "logo-h") %>
@@ -48,7 +29,7 @@
 		</div>
 	</div>
 
-	<div id="bio">
+	<div id="bio" class="sect">
 		<div class="sect-title">Biografía</div>
 		<div class="text-bio"> 
 			<p>Los copetes locos dieron inicio a su carrera musical el 03 de Enero del 2015, la banda esta formada por Daniel Aguilar (bajo, voz y coros), Erik Tenorio (Guitarra rítmica, voz y coros), Giovanny Zárate (Guitarra armónica, voz y coros) y Hugo Aguilar (batería). El proyecto surge por el gusto a la escena del rock and roll de los años 50's y 60's en los cuatro integrantes, en donde dicho estilo influenció desde la niñez a cada uno de ellos; también surge por la inquietud de rescatar la el rock and roll  mexicano y crear música propia basada en dicho estilo.</p>
@@ -57,6 +38,22 @@ Algunas de las influencias mas fuertes en la música son Chuck Berry, Little Ric
 			<p>El grupo tuvo sus primeros pasos en eventos privados y como banda estable en el “Hound Dog Diner” por alrededor de 1 año, teniendo participación en las distintas sucursales de la franquicia, compartiendo escenario con bandas del genero como “Los freneticos “, “Los Monster “ y “Eddie y los grasosos” por mencionar algunos, también destacan las participaciones en el “Faro Cultural y Recreativo de Iztacalco” donde lograron tocar y cantar junto a “Horario Reni” voz principal de “Los Sinners” (famosos por interpretar canciones como “La novia de mi mejor amigo” y “La carrera del oso”), La casa de la musica Black Note, Chevrolet Ermita, Retro Fest Chevrolet Americas y en “El Maguey” como banda invitada al concierto de despedida de “La Republica” (Colombia) por mencionar las mas importantes.</p>
 			<p>Actualmente cuentan con 10 canciones propias el estilo del rockabilly y rock and roll, basadas las letras de las melodias en temas cotidianos de los jóvenes como el baile, los amores y la diversión, donde destacan títulos como “Yo quiero que me digas”, “Tan Linda” y “La doctora Rock and roll” a demas de un extenso repertorio de los clasicos rockanrolleros para animar y traer de vuelta esos gloriosos años cincuenteros.</p>
 		</div>
+	</div>
+
+	<div id="integrantes" class="sect">
+		<div class="sect-title">Integrantes</div>
+	</div>
+
+	<div id="material" class="sect">
+		<div class="sect-title">Material</div>
+	</div>
+
+	<div id="galeria" class="sect">
+		<div class="sect-title">Galería</div>
+	</div>
+
+	<div id="contacto" class="sect">
+		<div class="sect-title">Contacto</div>
 	</div>
 
 </div>

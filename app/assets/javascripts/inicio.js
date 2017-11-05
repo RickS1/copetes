@@ -18,6 +18,22 @@ $(document).on("ready page:load",function(){
 	$(window).trigger("resize");
 });
 
+$(window).on("scroll",function(){
+	var tops = [[$("#bio").offset().top,$("#integrantes").offset().top,"bio"],[$("#integrantes").offset().top,$("#material").offset().top,"integrantes"],[$("#material").offset().top,$("#galeria").offset().top,"material"],[$("#galeria").offset().top,$("#contacto").offset().top,"galeria"],[$("#contacto").offset().top,$(document).height(),"contacto"]];
+	var ops = ["bio","integrantes","material","galeria","contacto"];
+	for(var i in tops){
+		var s = $(window).scrollTop();
+		if(s >= tops[i][0] && s < tops[i][1]){
+			for(var j in ops){
+				$("#op-"+ops[j])[0].replace("op-menu-active","");
+			}
+			if(!$("#op-"+tops[i][2]).classList.contains("op-menu-active"))
+				$("#op-"+tops[i][2])[0].className += " op-menu-active";
+			break;
+		}
+	}
+});
+
 $(window).on("resize",function(){
 	var w_height = $("#background").height();
 	var reels = $(".reel");

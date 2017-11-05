@@ -100,7 +100,7 @@ a{
 	transition: all 0.5s linear;
 }
 
-.op-menu:hover{
+.op-menu:hover, .op-menu-active{
 	/*color: #DAA520;*/
 	color: #767040 !important;
 	-webkit-transform: rotate(10deg);

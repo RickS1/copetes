@@ -32,5 +32,11 @@
 
 .text-bio{
 	font-family: AirstreamNF;
-	font-size: 19px;
+	font-size: 25px;
+}
+
+/* Sección de integrantes */
+#bio{
+	width: 100%;
+	padding-top: 145px;
 }

@@ -51,7 +51,7 @@ $(window).on("resize",function(){
 		reels[d].style.height = $(document).height() + "px";
 	});
 	$("#bio").css({
-		height: w_height + "px"
+		minHeight: w_height + "px"
 	});
 	$(window).trigger("scroll");
 });

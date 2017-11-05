@@ -5,14 +5,13 @@
   bottom: 0;
   left: 0;
   margin: auto;
-  
-  width :34px;
-  height: 55px;
+  width :24px;
+  height: 45px;
 }
 .mousey {
   width: 3px;
   padding: 10px 15px;
-  height: 35px;
+  height: 25px;
   border: 2px solid #fff;
   border-radius: 25px;
   opacity: 0.75;

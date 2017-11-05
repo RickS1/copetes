@@ -21,12 +21,12 @@ $(document).on("ready page:load",function(){
 $(window).on("scroll",function(){
 	var tops = [[$("#bio").offset().top,$("#integrantes").offset().top,"bio"],[$("#integrantes").offset().top,$("#material").offset().top,"integrantes"],[$("#material").offset().top,$("#galeria").offset().top,"material"],[$("#galeria").offset().top,$("#contacto").offset().top,"galeria"],[$("#contacto").offset().top,$(document).height(),"contacto"]];
 	var ops = ["bio","integrantes","material","galeria","contacto"];
+			for(var j in ops){
+				$("#op-"+ops[j])[0].className.replace(/ +op-menu-active/,"");
+			}
 	for(var i in tops){
 		var s = $(window).scrollTop();
 		if(s >= tops[i][0] && s < tops[i][1]){
-			for(var j in ops){
-				$("#op-"+ops[j])[0].className.replace("op-menu-active","");
-			}
 			if($("#op-"+tops[i][2])[0].className.indexOf("op-menu-active") < 0)
 				$("#op-"+tops[i][2])[0].className += " op-menu-active";
 			break;

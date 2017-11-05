@@ -74,9 +74,9 @@
 	-ms-transform: rotate(3deg) translate(0,0);
 	-o-transform: rotate(3deg) translate(0,0);
 	transform: rotate(3deg) translate(0,0);
-	-moz-border-image: -moz-radial-gradient(#FFFFFF,#CD853F);
-  -webkit-border-image: -webkit-radial-gradient(#FFFFFF,#CD853F);
-  border-image: radial-gradient(#FFFFFF,#CD853F);
+	-moz-border-image: -moz-linear-gradient(45deg,#CD853F,#FFFFFF);
+  -webkit-border-image: -webkit-linear-gradient(45deg,#CD853F,#FFFFFF);
+  border-image: linear-gradient(45deg,#CD853F,#FFFFFF);
 	-webkit-box-shadow: 25px 0 25px #000;
 	-moz-box-shadow: 25px 0 25px #000;
 	box-shadow: 25px 0 25px #000;

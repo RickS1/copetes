@@ -23,4 +23,7 @@ $(window).on("resize",function(){
 	reels.each(function(d){
 		reels[d].style.height = body_height + "px";
 	});
+	$("#bio").css({
+		height: w_height + "px"
+	});
 });

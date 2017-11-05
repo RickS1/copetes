@@ -33,7 +33,7 @@
 <div id="cont-h">
 <div class="body reel" style="left:0;">
 </div>
-<div class="body wrapper">
+<div class="body wrapper" id="b_wrapper">
 
 	<div id="inicio">
 		<div id="main-img-w">

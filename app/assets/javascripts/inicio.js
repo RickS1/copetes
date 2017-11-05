@@ -53,5 +53,17 @@ $(window).on("resize",function(){
 	$("#bio").css({
 		minHeight: w_height + "px"
 	});
+	$("#integrantes").css({
+		minHeight: w_height + "px"
+	});
+	$("#material").css({
+		minHeight: w_height + "px"
+	});
+	$("#galeria").css({
+		minHeight: w_height + "px"
+	});
+	$("#contacto").css({
+		minHeight: w_height + "px"
+	});
 	$(window).trigger("scroll");
 });

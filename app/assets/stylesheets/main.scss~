@@ -74,9 +74,9 @@
 	-ms-transform: rotate(3deg) translate(0,0);
 	-o-transform: rotate(3deg) translate(0,0);
 	transform: rotate(3deg) translate(0,0);
-	-webkit-box-shadow:  inset 0px 0px 10px rgba(245,222,179,1);
-	-moz-box-shadow:  inset 0px 0px 10px rgba(245,222,179,1);
-	box-shadow:  inset 0px 0px 10px rgba(245,222,179,1);
+	-moz-border-image: -moz-linear-gradient(top, #CD853F 0%, #FFFFFF 100%);
+  -webkit-border-image: -webkit-linear-gradient(top, #FFFFFF 0%, #3a4ed5 100%);
+  border-image: linear-gradient(to bottom, #CD853F 0%, #FFFFFF 100%);
 }
 
 .pic-sat{

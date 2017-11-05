@@ -52,13 +52,13 @@ a{
 }
 
 .wrapper{
-	width: -webkit-calc(100% - 64px);
-	width: -moz-calc(100% - 64px);
-	width: calc(100% - 64px);
+	width: -webkit-calc(100% - 60px);
+	width: -moz-calc(100% - 60px);
+	width: calc(100% - 60px);
 }
 
 .reel{
-	width: 32px;
+	width: 30px;
 	min-height: 100%;
 	background-image: image-url("reel.png");
 	background-repeat: repeat-y;

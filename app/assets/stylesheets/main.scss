@@ -70,11 +70,11 @@
 	position: absolute;
 	z-index: 2;
 	height: 150px;
-	-webkit-transform: rotate(3deg) translate(55px,0);
-	-moz-transform: rotate(3deg) translate(55px,0);
-	-ms-transform: rotate(3deg) translate(55px,0);
-	-o-transform: rotate(3deg) translate(55px,0);
-	transform: rotate(3deg) translate(55px,0);
+	-webkit-transform: rotate(3deg) translate(45px,0);
+	-moz-transform: rotate(3deg) translate(45px,0);
+	-ms-transform: rotate(3deg) translate(45px,0);
+	-o-transform: rotate(3deg) translate(45px,0);
+	transform: rotate(3deg) translate(45px,0);
 	-moz-border-image: -moz-linear-gradient(-72deg,#CD853F,#F5DEB3) 1;
   -webkit-border-image: -webkit-linear-gradient(-72deg,#CD853F,#F5DEB3) 1;
   border-image: linear-gradient(-72deg,#CD853F,#F5DEB3) 1;
@@ -93,9 +93,9 @@
 	filter: saturate(95%) brightness(150%) contrast(75%) grayscale(100%);
 	position: absolute;
 	z-index: 1;
-	-webkit-transform: rotate(0deg) translate(215px,35px);
-	-moz-transform: rotate(0deg) translate(215px,35px);
-	-ms-transform: rotate(0deg) translate(215px,35px);
-	-o-transform: rotate(0deg) translate(215px,35px);
-	transform: rotate(0deg) translate(215px,35px);
+	-webkit-transform: rotate(0deg) translate(235px,55px);
+	-moz-transform: rotate(0deg) translate(235px,55px);
+	-ms-transform: rotate(0deg) translate(235px,55px);
+	-o-transform: rotate(0deg) translate(235px,55px);
+	transform: rotate(0deg) translate(235px,55px);
 }

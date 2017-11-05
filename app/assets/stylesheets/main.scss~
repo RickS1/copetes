@@ -54,6 +54,8 @@
 	position: relative;
 }
 
+/* Fotos integrantes */
+
 .scrap-sheet{
 	position: absolute;
 	top: 50%;
@@ -117,4 +119,14 @@
 	-webkit-box-shadow: 25px 0 25px #000;
 	-moz-box-shadow: 25px 0 25px #000;
 	box-shadow: 25px 0 25px #000;
+}
+
+/* Descripción integrantes */
+
+.nombre{
+	font-family: BoyzRGrossNF;
+	font-size: 75px;
+	text-align: left;
+	padding-left: 35px;
+	color: #1E90FF;
 }

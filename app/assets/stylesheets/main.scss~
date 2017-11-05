@@ -22,3 +22,9 @@
 	width: 100%;
 	position: relative;
 }
+
+/* Sección de biografía */
+
+#bio{
+	width: 100%;
+}

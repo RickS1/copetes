@@ -2,6 +2,11 @@ body{
 	margin: 0;
 }
 
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
 #background{
 	width: 100%;
 	height: 100%;
@@ -81,7 +86,7 @@ body{
 	font-size: 29px;
 	cursor: pointer;
 	margin: 0 6px;
-	color: #000;
+	color: #000 !important;
 	list-style-type: none;
 	font-family: UndergroundNF;
 	-webkit-transform: rotate(0deg);
@@ -97,7 +102,7 @@ body{
 
 .op-menu:hover{
 	/*color: #DAA520;*/
-	COLOR: #767040;
+	color: #767040 !important;
 	-webkit-transform: rotate(10deg);
 	-moz-transform: rotate(10deg);
 	-ms-transform: rotate(10deg);

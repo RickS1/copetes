@@ -9,7 +9,7 @@ $(document).on("ready page:load",function(){
 		height: w_height + "px"
 	});
 	$("#main-img-w").css({
-		height: (w_height - 60) + "px"
+		height: (w_height - 175) + "px"
 	});
 	$("#img-main").css({
 		height: (w_height - 175) + "px"

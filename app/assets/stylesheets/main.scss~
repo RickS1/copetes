@@ -80,6 +80,6 @@
 }
 
 .pic-sat{
-	-webkit-filter: saturate(140%) blur(1px) brightness(60%) contrast(130%);
-	filter: saturate(140%) blur(1px) brightness(60%) contrast(130%);
+	-webkit-filter: saturate(125%) brightness(75%) contrast(150%);
+	filter: saturate(125%) brightness(75%) contrast(150%);
 }

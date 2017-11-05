@@ -57,7 +57,7 @@ body{
 	background-image: image-url("reel.png");
 	background-repeat: repeat-y;
 	background-position: center;
-	background-size: contain;
+	background-size: contain 100%;
 }
 
 #logo-h{

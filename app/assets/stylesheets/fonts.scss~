@@ -9,6 +9,16 @@
 }
 
 @font-face {
-	font-family: "GrandHotel";
-	src: asset-url('grand-hotel.regular.ttf') format("truetype");
+	font-family: "BoyzRGrossNF";
+	src: asset-url('BoyzRGrossNF.ttf') format("truetype");
+}
+
+@font-face {
+	font-family: "AirstreamNF";
+	src: asset-url('AirstreamNF.ttf') format("truetype");
+}
+
+@font-face {
+	font-family: "IronickNF";
+	src: asset-url('IronickNF.ttf') format("truetype");
 }

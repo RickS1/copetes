@@ -105,9 +105,9 @@
 	filter: saturate(75%) brightness(120%) contrast(95%) sepia(100%);
 	position: absolute;
 	z-index: 0;
-	-webkit-transform: rotate(-6deg) translate(40px,235px);
-	-moz-transform: rotate(-6deg) translate(40px,235px);
-	-ms-transform: rotate(-6deg) translate(40px,235px);
-	-o-transform: rotate(-6deg) translate(40px,235px);
-	transform: rotate(-6deg) translate(40px,235px);
+	-webkit-transform: rotate(-6deg) translate(40px,222px);
+	-moz-transform: rotate(-6deg) translate(40px,222px);
+	-ms-transform: rotate(-6deg) translate(40px,222px);
+	-o-transform: rotate(-6deg) translate(40px,222px);
+	transform: rotate(-6deg) translate(40px,222px);
 }

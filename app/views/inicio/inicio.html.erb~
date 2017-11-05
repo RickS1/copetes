@@ -50,7 +50,7 @@ Algunas de las influencias mas fuertes en la música son Chuck Berry, Little Ric
 						<%= image_tag("dan1.jpg", size: "150x150", alt: "Daniel", class: "pic-sat") %>
 					</div>
 					<%= image_tag("dan2.png", size: "165x210", alt: "Daniel", class: "pic-gray") %>
-					<%= image_tag("dan3.jpg", size: "270x165", alt: "Daniel", class: "pic-sepia") %>
+					<%= image_tag("dan3.jpg", size: "255x150", alt: "Daniel", class: "pic-sepia") %>
 				</div>
 				<div class="desc">
 				</div>

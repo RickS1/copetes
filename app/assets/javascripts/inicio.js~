@@ -19,11 +19,9 @@ $(document).on("ready page:load",function(){
 });
 
 $(window).on("resize",function(){
-	void($("#b_wrapper")[0].offsetHeight);
 	var w_height = $("#background").height();
 	var reels = $(".reel");
-	var body_height = window.getComputedStyle($("#b_wrapper")[0], null).getPropertyValue("height");
-	console.log(body_height);
+	void($("#b_wrapper")[0].offsetHeight);
 	$("#inicio").css({
 		height: w_height + "px"
 	});
@@ -34,7 +32,7 @@ $(window).on("resize",function(){
 		height: (w_height - 215) + "px"
 	});
 	reels.each(function(d){
-		reels[d].style.height = body_height + "px";
+		reels[d].style.height = window.getComputedStyle($("#b_wrapper")[0], null).getPropertyValue("height") + "px";
 	});
 	$("#bio").css({
 		height: w_height + "px"

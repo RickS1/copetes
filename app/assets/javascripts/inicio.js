@@ -32,7 +32,7 @@ $(window).on("resize",function(){
 		height: (w_height - 215) + "px"
 	});
 	reels.each(function(d){
-		reels[d].style.height = window.getComputedStyle($("#b_wrapper")[0], null).getPropertyValue("height") + "px";
+		reels[d].style.height = $(document).height() + "px";
 	});
 	$("#bio").css({
 		height: w_height + "px"

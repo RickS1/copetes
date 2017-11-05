@@ -22,7 +22,7 @@ $(window).on("scroll",function(){
 	var tops = [[$("#bio").offset().top,$("#integrantes").offset().top,"bio"],[$("#integrantes").offset().top,$("#material").offset().top,"integrantes"],[$("#material").offset().top,$("#galeria").offset().top,"material"],[$("#galeria").offset().top,$("#contacto").offset().top,"galeria"],[$("#contacto").offset().top,$(document).height(),"contacto"]];
 	var ops = ["bio","integrantes","material","galeria","contacto"];
 			for(var j in ops){
-				$("#op-"+ops[j])[0].className.replace("op-menu-active","");
+				$("#op-"+ops[j])[0].className.replace(/ +op-menu-active/,"");
 			}
 	for(var i in tops){
 		var s = $(window).scrollTop();

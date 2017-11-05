@@ -5,25 +5,15 @@ $(document).on("ready page:load",function(){
 		cursorcolor: "red"
 	});
   $(".op-menu a").on('click', function(event) {
-
-    // Make sure this.hash has a value before overriding default behavior
     if (this.hash !== "") {
-      // Prevent default anchor click behavior
       event.preventDefault();
-
-      // Store hash
       var hash = this.hash;
-
-      // Using jQuery's animate() method to add smooth page scroll
-      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
       $('html, body').animate({
         scrollTop: $(hash).offset().top
       }, 800, function(){
-   
-        // Add hash (#) to URL when done scrolling (default click behavior)
         window.location.hash = hash;
       });
-    } // End if
+    }
   });
 	$(window).trigger("resize");
 });
@@ -31,7 +21,7 @@ $(document).on("ready page:load",function(){
 $(window).on("resize",function(){
 	var w_height = $("#background").height();
 	var reels = $(".reel");
-	var body_height = $("#b_wrapper").height();
+	var body_height = $("#b_wrapper")[0].scrollHeight;
 	$("#inicio").css({
 		height: w_height + "px"
 	});

@@ -125,7 +125,7 @@
 
 .nombre{
 	font-family: BoyzRGrossNF;
-	font-size: 75px;
+	font-size: 90px;
 	text-align: left;
 	padding-left: 35px;
 	color: #1E90FF;

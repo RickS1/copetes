@@ -55,11 +55,15 @@ Algunas de las influencias mas fuertes en la música son Chuck Berry, Little Ric
 				</div>
 				<div class="desc">
 					<div class="nombre">Daniel Aguilar</div>
+					<div class="fn">
+						<span class="campo">Fecha de nacimiento: </span><span class="valor">5 de junio de 1994</span>
+					</div>
 				</div>
 			</div>
 
 			<div class="scrapbook">
 				<div class="desc">
+					<div class="nombre">Hugo Aguilar</div>
 				</div>
 				<div class="photos">
 					<%= image_tag("scrap.jpg", class: "scrap-sheet") %>
@@ -83,6 +87,7 @@ Algunas de las influencias mas fuertes en la música son Chuck Berry, Little Ric
 					<%= image_tag("eri3.jpg", size: "265x160", alt: "Erik", class: "pic-sepia") %>
 				</div>
 				<div class="desc">
+					<div class="nombre">Erik Tenorio</div>
 				</div>
 			</div>
 

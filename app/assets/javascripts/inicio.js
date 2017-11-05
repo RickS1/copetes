@@ -21,8 +21,6 @@ $(window).on("resize",function(){
 		height: (w_height - 215) + "px"
 	});
 	reels.each(function(d){
-		reels[d].css({
-			height: body_height + "px"
-		});
+		reels[d].style.height = body_height + "px";
 	});
 });

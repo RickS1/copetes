@@ -4,6 +4,11 @@
 }
 
 @font-face {
-	font-family: "DriveThru";
-	src: asset-url('DRIVE-TH.TTF') format("truetype");
+	font-family: "MetroRetroNF";
+	src: asset-url('MetroRetroNF.ttf') format("truetype");
+}
+
+@font-face {
+	font-family: "GrandHotel";
+	src: asset-url('grand-hotel.regular.ttf') format("truetype");
 }

@@ -22,6 +22,7 @@ $(window).on("resize",function(){
 	var w_height = $("#background").height();
 	var reels = $(".reel");
 	var body_height = $("#inicio").height() + $("#bio").height();
+	console.log(body_height);
 	$("#inicio").css({
 		height: w_height + "px"
 	});

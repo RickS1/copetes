@@ -77,7 +77,7 @@ a{
 }
 
 #menu-list{
-	margin-top: 23%;
+	margin-top: 240px;
 	margin-left: 185px;
 }
 

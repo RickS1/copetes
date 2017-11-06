@@ -155,6 +155,8 @@
 	color: #1E90FF;
 }
 
+.nombre-r{ text-align: right; }
+
 @media only screen and (max-width: 750px){
 	.photos, .desc{
 		width: 100%;

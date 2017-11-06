@@ -75,10 +75,10 @@ function adjust(element,w,h){
 	var w_h = $(window).height(), w_w = $(window).width();
 	if(w_h < w_w){
 		$(element).height("");
-		$(element).width(element.height()*(w/h));
+		$(element).width($(element).height()*(w/h));
 	}
 	else{
 		$(element).width("");
-		$(element).height(element.width()*(h/w));	
+		$(element).height($(element).width()*(h/w));	
 	}	
 }

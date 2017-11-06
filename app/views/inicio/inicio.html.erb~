@@ -64,6 +64,7 @@ Algunas de las influencias mas fuertes en la música son Chuck Berry, Little Ric
 				</div>
 			</div>
 
+<% if false %>
 			<div class="scrapbook">
 				<div class="desc">
 					<div class="nombre">Hugo Aguilar</div>
@@ -101,7 +102,7 @@ Algunas de las influencias mas fuertes en la música son Chuck Berry, Little Ric
 					</div>
 				</div>
 			</div>
-
+<% end %>
 		</div>
 	</div>
 

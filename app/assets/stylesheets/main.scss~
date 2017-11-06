@@ -55,13 +55,6 @@
 	position: relative;
 }
 
-@media only screen and (max-width: 690px){
-	.photos, .desc{
-		width: 100%;
-		float: none;
-	}
-}
-
 /* Fotos integrantes */
 
 .scrap-sheet{
@@ -81,7 +74,11 @@
 	width: 70%
 }
 
-@media only screen and (max-width: 690px){
+@media only screen and (max-width: 750px){
+	.photos, .desc{
+		width: 100%;
+		float: none;
+	}
 	.scrap-sheet { 	
 		max-height: 350px;
 		min-height: 87px;
@@ -98,10 +95,10 @@
 	position: absolute;
 	z-index: 2;
 	height: 150px;
-	max-width: 30%;
-	min-width: 150px;
-	max-height: 10%;
-	min-height: 150px;
+	max-width: 300px;
+	min-width: 75px;
+	max-height: 300px;
+	min-height: 75px;
 	-webkit-transform: rotate(3deg) translate(45px,0);
 	-moz-transform: rotate(3deg) translate(45px,0);
 	-ms-transform: rotate(3deg) translate(45px,0);
@@ -116,10 +113,10 @@
 }
 
 .pic-sat{
-	max-width: 30%;
-	min-width: 150px;
-	max-height: 10%;
-	min-height: 150px;
+	max-width: 300px;
+	min-width: 75px;
+	max-height: 300px;
+	min-height: 75px;
 	-webkit-filter: saturate(125%) brightness(75%) contrast(150%);
 	filter: saturate(125%) brightness(75%) contrast(150%);
 }

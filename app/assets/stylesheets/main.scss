@@ -85,6 +85,12 @@
 		max-width: 275px;
 		min-width: 69px; 
 	} 
+	.photo-1, .pic-sat{
+		max-width: 150px;
+		min-width: 37px;
+		max-height: 150px;
+		min-height: 37px;
+	}
 }
 
 .photo-1{
@@ -95,10 +101,10 @@
 	position: absolute;
 	z-index: 2;
 	height: 150px;
-	max-width: 30%;
-	min-width: 150px;
-	max-height: 10%;
-	min-height: 150px;
+	max-width: 300px;
+	min-width: 75px;
+	max-height: 300px;
+	min-height: 75px;
 	-webkit-transform: rotate(3deg) translate(45px,0);
 	-moz-transform: rotate(3deg) translate(45px,0);
 	-ms-transform: rotate(3deg) translate(45px,0);
@@ -113,10 +119,10 @@
 }
 
 .pic-sat{
-	max-width: 30%;
-	min-width: 150px;
-	max-height: 10%;
-	min-height: 150px;
+	max-width: 300px;
+	min-width: 75px;
+	max-height: 300px;
+	min-height: 75px;
 	-webkit-filter: saturate(125%) brightness(75%) contrast(150%);
 	filter: saturate(125%) brightness(75%) contrast(150%);
 }

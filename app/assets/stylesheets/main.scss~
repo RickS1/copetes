@@ -167,6 +167,20 @@
 		max-height: 150px;
 		min-height: 37px;
 	}
+
+	.pic-gray{
+		max-width: 145px;
+		min-width: 36px;
+		max-height: 210px;
+		min-height: 52px;	
+	}
+
+	.pic-sepia{
+		max-width: 132px;
+		min-width: 76px;
+		max-height: 80px;
+		min-height: 40px;
+	}
 }
 
 /* Descripción integrantes */

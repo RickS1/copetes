@@ -135,11 +135,6 @@
 	filter: saturate(75%) brightness(120%) contrast(95%) sepia(100%);
 	position: absolute;
 	z-index: 0;
-	-webkit-transform: rotate(-5deg);
-	-moz-transform: rotate(-5deg);
-	-ms-transform: rotate(-5deg);
-	-o-transform: rotate(-5deg);
-	transform: rotate(-5deg);
 	-webkit-box-shadow: 25px 0 25px #000;
 	-moz-box-shadow: 25px 0 25px #000;
 	box-shadow: 25px 0 25px #000;
@@ -165,8 +160,8 @@
 	.scrap-sheet { 	
 		max-height: 350px;
 		min-height: 87px;
-		max-height: 180px;
-		min-height: 37px;
+		max-width: 180px;
+		min-width: 37px;
 	}
 
 	.photo, .pic-sat{

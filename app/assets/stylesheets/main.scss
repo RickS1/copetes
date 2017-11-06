@@ -44,7 +44,7 @@
 
 .scrapbook{
 	width:100%;
-	height: 390px;
+	height: 450px;
 	margin-top: 50px;
 }
 
@@ -135,11 +135,6 @@
 	filter: saturate(75%) brightness(120%) contrast(95%) sepia(100%);
 	position: absolute;
 	z-index: 0;
-	-webkit-transform: rotate(-5deg);
-	-moz-transform: rotate(-5deg);
-	-ms-transform: rotate(-5deg);
-	-o-transform: rotate(-5deg);
-	transform: rotate(-5deg);
 	-webkit-box-shadow: 25px 0 25px #000;
 	-moz-box-shadow: 25px 0 25px #000;
 	box-shadow: 25px 0 25px #000;

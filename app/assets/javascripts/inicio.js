@@ -2,7 +2,7 @@ $(document).on("ready page:load",function(){
 	var ops = ["#op-bio","#op-integrantes","#op-material","#op-galeria","#op-contacto"], ancho_m = 0;
 	for(var i in ops){
 		console.log(ancho_m);
-		ancho_m = ancho_m + $(ops[i]).outerWidth();
+		ancho_m = ancho_m + $(ops[i]).outerWidth(true);
 	}
 	$("#menu-list").width(ancho_m);
 	$("body").niceScroll({

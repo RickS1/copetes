@@ -161,12 +161,20 @@
 	.photos, .desc{
 		width: 100%;
 	}
+
 	.scrap-sheet { 	
 		max-height: 350px;
 		min-height: 87px;
 		max-height: 150px;
 		min-height: 37px;
 	}
+
+	.photo, .pic-sat{
+		max-width: 150px;
+		min-width: 75px;
+		max-height: 150px;
+		min-height: 75px;
+}
 
 	.pic-gray{
 		max-width: 145px;

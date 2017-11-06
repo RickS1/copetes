@@ -55,6 +55,13 @@
 	position: relative;
 }
 
+@media only screen and (max-width: 650px){
+	.photos, .desc{
+		width: 100%;
+		float: none;
+	}
+}
+
 /* Fotos integrantes */
 
 .scrap-sheet{
@@ -79,6 +86,10 @@
 	position: absolute;
 	z-index: 2;
 	height: 150px;
+	max-width: 30%;
+	min-width: 150px;
+	max-height: 10%;
+	min-height: 150px;
 	-webkit-transform: rotate(3deg) translate(45px,0);
 	-moz-transform: rotate(3deg) translate(45px,0);
 	-ms-transform: rotate(3deg) translate(45px,0);

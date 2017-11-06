@@ -55,6 +55,13 @@
 	position: relative;
 }
 
+@media only screen and (max-width: 650px){
+	.photos, .desc{
+		width: 100%;
+		float: none;
+	}
+}
+
 /* Fotos integrantes */
 
 .scrap-sheet{
@@ -69,6 +76,7 @@
 	max-height: 90%;
 	min-height: 50%;
 	max-width: 95%;
+	height: 90%;
 }
 
 .photo-1{

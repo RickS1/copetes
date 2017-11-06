@@ -100,7 +100,8 @@
 }
 
 .pic-sat{
-	height: 30%;
+	height: 100%;
+	width: 100%;
 	max-width: 300px;
 	min-width: 150px;
 	max-height: 300px;

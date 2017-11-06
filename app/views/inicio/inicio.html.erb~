@@ -1,7 +1,6 @@
 <div id="background">
 </div>
 <div id="menu-h">
-	<div id="menu-w">
 	<ul id="menu-list">
 		<li class="op-menu" id="op-bio"><a href="#bio">Biografía</a></li>
 		<li class="op-menu" id="op-integrantes"><a href="#integrantes">Integrantes</a></li>
@@ -9,7 +8,6 @@
 		<li class="op-menu" id="op-galeria"><a href="#galeria">Galería</a></li>
 		<li class="op-menu" id="op-contacto"><a href="#contacto">Contacto</a></li>
 	</ul>
-	</div>
 </div>
 <%= image_tag("cl-logo.png", alt: "Los Copetes Locos", id: "logo-h") %>
 

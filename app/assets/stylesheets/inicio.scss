@@ -17,14 +17,27 @@ a{
 	height: 100%;
 	-webkit-filter: sepia(100%) opacity(65%) saturate(130%) blur(1px);
 	filter: sepia(100%) opacity(65%) saturate(130%) blur(1px);
-	background-image: image-url("cl-inst.jpg");
+	/*background-image: image-url("cl-inst.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: cover;
+	background-size: cover;*/
 	position: fixed;
 	z-index: 1;
 	top: 0;
 	left: 0;
+}
+
+#img-back{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%,-50%);
+	-moz-transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	-o-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+	min-width:100%;
+	min-height: 100%;
 }
 
 /* Menú lateral */

@@ -41,8 +41,7 @@ $(window).on("scroll",function(){
 
 $(window).on("resize",function(){
 	var w_height = $("#background").height();
-	var reels = $(".reel");
-	//void($("#b_wrapper")[0].offsetHeight);
+	var reels = $(".reel"), scraps = $(".scrap-sheet");
 	$("#b_wrapper").width($(window).width() - 60);
 	$("#inicio").css({
 		height: w_height + "px"
@@ -51,6 +50,9 @@ $(window).on("resize",function(){
 		height: (w_height - 200) + "px"
 	});
 	adjust("#img-main",818,888);
+	for(var i in scraps){
+		adjust($("#"+scraps[i].id),275,350);
+	}
 	reels.each(function(d){
 		reels[d].style.height = $(document).height() + "px";
 	});

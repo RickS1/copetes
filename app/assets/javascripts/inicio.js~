@@ -1,5 +1,5 @@
 $(document).on("ready page:load",function(){	
-	var ops = ["#op-bio","#op-intehgrantes","#op-material","#op-galeria","#op-contacto"], ancho_m = 0;
+	var ops = ["#op-bio","#op-integrantes","#op-material","#op-galeria","#op-contacto"], ancho_m = 0;
 	for(var i in ops){
 		console.log(ancho_m);
 		ancho_m = ancho_m + $(ops[i])[0].offsetWidth;

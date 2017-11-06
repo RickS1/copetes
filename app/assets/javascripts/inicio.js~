@@ -55,9 +55,7 @@ $(window).on("resize",function(){
 	}
 	for(var i in sats){
 		adjust($("#"+sats[i].id),150,150);
-	}
-	for(var i in sats){
-		adjust($("#"+sats[i].id),150,150);
+		adjust($("#"+pics[i].id),150,150);
 	}
 	for(var i in grays){
 		adjust($("#"+grays[i].id),145,210);

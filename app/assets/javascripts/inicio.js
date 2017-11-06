@@ -41,7 +41,7 @@ $(window).on("scroll",function(){
 
 $(window).on("resize",function(){
 	var w_height = $("#background").height();
-	var reels = $(".reel"), scraps = $(".scrap-sheet"), sats = $(".pic-sat"), grays = $(".pic-gray"), seps = $(".pic-sepia"), pics = $(".photo-1");
+	var reels = $(".reel"), scraps = $(".scrap-sheet"), sats = $(".pic-sat"), grays = $(".pic-gray"), seps = $(".pic-sepia"), pics = $(".photo");
 	$("#b_wrapper").width($(window).width() - 60);
 	$("#inicio").css({
 		height: w_height + "px"

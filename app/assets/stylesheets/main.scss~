@@ -181,29 +181,6 @@
 		max-height: 160px;
 		min-height: 80px;
 	}
-}max-width: 275px;
-		min-width: 69px; 
-	} 
-	.photo, .pic-sat{
-		max-width: 150px;
-		min-width: 37px;
-		max-height: 150px;
-		min-height: 37px;
-	}
-
-	.pic-gray{
-		max-width: 145px;
-		min-width: 36px;
-		max-height: 210px;
-		min-height: 52px;	
-	}
-
-	.pic-sepia{
-		max-width: 265px;
-		min-width: 132px;
-		max-height: 160px;
-		min-height: 80px;
-	}
 
 	.nombre{ 
 		line-height: 0.8em; 

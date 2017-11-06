@@ -55,13 +55,6 @@
 	position: relative;
 }
 
-@media only screen and (max-width: 690px){
-	.photos, .desc{
-		width: 100%;
-		float: none;
-	}
-}
-
 /* Fotos integrantes */
 
 .scrap-sheet{
@@ -81,7 +74,11 @@
 	width: 70%
 }
 
-@media only screen and (max-width: 690px){
+@media only screen and (max-width: 750px){
+	.photos, .desc{
+		width: 100%;
+		float: none;
+	}
 	.scrap-sheet { 	
 		max-height: 350px;
 		min-height: 87px;

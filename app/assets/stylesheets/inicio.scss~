@@ -91,7 +91,6 @@ a{
 }
 
 #menu-list{
-	overflow: hidden;
 	top: 50%;
 	left: 50%;
 	position: absolute;
@@ -149,6 +148,6 @@ a{
 	padding-right: 35px;
 }
 
-@media only screen and (max-width: 650px){
+@media only screen and (max-width: 690px){
 	.sect-title { font-size: 40px; text-align: center; padding-right: 0; }
 }

@@ -54,12 +54,15 @@ $(window).on("resize",function(){
 		adjust($("#"+scraps[i].id),275,350);
 	}
 	for(var i in sats){
+		console.log(sats[i]);
 		adjust($("#"+sats[i].id),150,150);
 	}
 	for(var i in grays){
+		console.log(grays[i]);
 		adjust($("#"+grays[i].id),145,210);
 	}
 	for(var i in seps){
+		console.log(seps[i]);
 		adjust($("#"+seps[i].id),265,160);
 	}
 	reels.each(function(d){

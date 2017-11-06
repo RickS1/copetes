@@ -57,7 +57,7 @@ $(window).on("resize",function(){
 
 		adjust($("#"+pics[i].id),150,150);
 		$("#"+pics[i].id).css({
-			top: (($("#ps1").height() - $("#"+scraps[i].id).height()) / 2) + ($("#"+scraps[i].id).height() * 0.1),
+			top: (($("#ps1").height() - $("#"+scraps[i].id).height()) / 2) - ($("#"+scraps[i].id).height() * 0.02),
 			left: (($("#ps1").width() - $("#"+scraps[i].id).width()) / 2) - ($("#"+scraps[i].id).width() * 0.01)
 		});
 

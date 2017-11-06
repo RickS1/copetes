@@ -1,6 +1,7 @@
 <div id="background">
 </div>
 <div id="menu-h">
+	<div id="menu-w">
 	<ul id="menu-list">
 		<li class="op-menu" id="op-bio"><a href="#bio">Biografía</a></li>
 		<li class="op-menu" id="op-integrantes"><a href="#integrantes">Integrantes</a></li>
@@ -8,6 +9,7 @@
 		<li class="op-menu" id="op-galeria"><a href="#galeria">Galería</a></li>
 		<li class="op-menu" id="op-contacto"><a href="#contacto">Contacto</a></li>
 	</ul>
+	</div>
 </div>
 <%= image_tag("cl-logo.png", alt: "Los Copetes Locos", id: "logo-h") %>
 
@@ -56,9 +58,9 @@ Algunas de las influencias mas fuertes en la música son Chuck Berry, Little Ric
 				<div class="desc">
 					<div class="nombre">Daniel Aguilar</div>
 					<div class="datos">
-						<p><span class="campo">Fecha de nacimiento: </span><span class="valor">5 de junio de 1994.</span><br>
-						<p><span class="campo">Rol: </span><span class="valor">Bajo, voz.</span><br>
-						<p><span class="campo">Gear: </span><span class="valor">Bajo <i>Epiphone</i> viola, amplificador <i>Ampeg</i>.</span>
+						<p><span class="campo">Fecha de nacimiento: </span><span class="valor">5 de junio de 1994</span><br>
+						<p><span class="campo">Rol: </span><span class="valor">Bajo, voz</span><br>
+						<p><span class="campo">Gear: </span><span class="valor">Bajo <i>Epiphone</i> viola, amplificador <i>Ampeg</i></span>
 					</div>
 				</div>
 			</div>
@@ -67,9 +69,9 @@ Algunas de las influencias mas fuertes en la música son Chuck Berry, Little Ric
 				<div class="desc">
 					<div class="nombre">Hugo Aguilar</div>
 					<div class="datos">
-						<p><span class="campo">Fecha de nacimiento: </span><span class="valor">27 de enero de 1997.</span><br>
-						<p><span class="campo">Rol: </span><span class="valor">Batería.</span><br>
-						<p><span class="campo">Gear: </span><span class="valor">Batería <i>Gretsch</i> Catalina Maple.</span>
+						<p><span class="campo">Fecha de nacimiento: </span><span class="valor">27 de enero de 1997</span><br>
+						<p><span class="campo">Rol: </span><span class="valor">Batería</span><br>
+						<p><span class="campo">Gear: </span><span class="valor">Batería <i>Gretsch</i> Catalina Maple</span>
 					</div>
 				</div>
 				<div class="photos">
@@ -96,9 +98,9 @@ Algunas de las influencias mas fuertes en la música son Chuck Berry, Little Ric
 				<div class="desc">
 					<div class="nombre">Erik Tenorio</div>
 					<div class="datos">
-						<p><span class="campo">Fecha de nacimiento: </span><span class="valor">21 de abril de 1993.</span><br>
-						<p><span class="campo">Rol: </span><span class="valor">Guitarra rítmica, voz.</span><br>
-						<p><span class="campo">Gear: </span><span class="valor">Guitarra <i>Gretsch</i> 5420, amplificador <i>Vox</i> AV60.</span>
+						<p><span class="campo">Fecha de nacimiento: </span><span class="valor">21 de abril de 1993</span><br>
+						<p><span class="campo">Rol: </span><span class="valor">Guitarra rítmica, voz</span><br>
+						<p><span class="campo">Gear: </span><span class="valor">Guitarra <i>Gretsch</i> 5420, amplificador <i>Vox</i> AV60</span>
 					</div>
 				</div>
 			</div>

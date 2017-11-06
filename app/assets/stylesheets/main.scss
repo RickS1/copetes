@@ -145,15 +145,43 @@
 	box-shadow: 25px 0 25px #000;
 }
 
+/* Descripción integrantes */
+
+.nombre{
+	font-family: BoyzRGrossNF;
+	font-size: 90px;
+	text-align: left;
+	padding-left: 35px;
+	color: #1E90FF;
+}
+
+.nombre-r{ text-align: right; }
+
 @media only screen and (max-width: 750px){
 	.photos, .desc{
 		width: 100%;
-		float: none;
 	}
 	.scrap-sheet { 	
 		max-height: 350px;
 		min-height: 87px;
-		max-width: 275px;
+		max-height: 150px;
+		min-height: 37px;
+	}
+
+	.pic-gray{
+		max-width: 145px;
+		min-width: 36px;
+		max-height: 210px;
+		min-height: 52px;	
+	}
+
+	.pic-sepia{
+		max-width: 265px;
+		min-width: 132px;
+		max-height: 160px;
+		min-height: 80px;
+	}
+}max-width: 275px;
 		min-width: 69px; 
 	} 
 	.photo, .pic-sat{
@@ -176,16 +204,11 @@
 		max-height: 160px;
 		min-height: 80px;
 	}
-}
 
-/* Descripción integrantes */
-
-.nombre{
-	font-family: BoyzRGrossNF;
-	font-size: 90px;
-	text-align: left;
-	padding-left: 35px;
-	color: #1E90FF;
+	.nombre{ 
+		line-height: 0.8em; 
+		text-align: center;
+	}
 }
 
 .datos{
@@ -197,6 +220,8 @@
 	-moz-box-shadow: 25px 0 25px #000;
 	box-shadow: 25px 0 25px #000;
 }
+
+.datos p{ margin:16px auto; }
 
 .campo{
 	font-family: MetroRetroNF;

@@ -47,7 +47,7 @@ $(window).on("resize",function(){
 		height: w_height + "px"
 	});
 	$("#main-img-w").css({
-		height: (w_height - 190) + "px"
+		height: (w_height - 200) + "px"
 	});
 	adjust("#img-main",818,888);
 	reels.each(function(d){

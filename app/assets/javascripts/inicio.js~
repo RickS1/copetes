@@ -1,8 +1,8 @@
 $(document).on("ready page:load",function(){	
-	var ops = $("li.op-menu"), ancho_m = 0;
+	var ops = ["#op-bio","#op-intehgrantes","#op-material","#op-galeria","#op-contacto"], ancho_m = 0;
 	for(var i in ops){
 		console.log(ancho_m);
-		ancho_m = ancho_m + ops[i].offsetWidth;
+		ancho_m = ancho_m + $(ops[i])[0].offsetWidth;
 	}
 	$("#menu-list").width(ancho_m);
 	$("body").niceScroll({

@@ -93,11 +93,19 @@
 }
 
 .pic-sat{
+	max-width: 30%;
+	min-width: 150px;
+	max-height: 30%;
+	min-height: 150px;
 	-webkit-filter: saturate(125%) brightness(75%) contrast(150%);
 	filter: saturate(125%) brightness(75%) contrast(150%);
 }
 
 .pic-gray{
+	max-width: 30%;
+	min-width: 145px;
+	max-height: 30%;
+	min-height: 210px;
 	-webkit-filter: saturate(95%) brightness(150%) contrast(75%) grayscale(100%);
 	filter: saturate(95%) brightness(150%) contrast(75%) grayscale(100%);
 	position: absolute;
@@ -110,6 +118,10 @@
 }
 
 .pic-sepia{
+	max-width: 30%;
+	min-width: 265px;
+	max-height: 30%;
+	min-height: 160px;
 	-webkit-filter: saturate(75%) brightness(120%) contrast(95%) sepia(100%);
 	filter: saturate(75%) brightness(120%) contrast(95%) sepia(100%);
 	position: absolute;

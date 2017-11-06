@@ -1,6 +1,9 @@
 $(document).on("ready page:load",function(){	
-	//$("#background").height($(window).height());
-	//$("#background").width($(window).width());
+	var ops = $(".op-menu"), ancho_m = 0;
+	for(var i in ops){
+		ancho_m = ancho_m + ops[i].offsetWidth;
+	}
+	$("#menu-list").width(ancho_m);
 	$("body").niceScroll({
 		cursorwidth: "3px",
 		background: "rgba(150,150,150,0.6)",

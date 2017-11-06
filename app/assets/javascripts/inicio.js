@@ -56,7 +56,7 @@ $(window).on("resize",function(){
 	for(var i in pics){
 		adjust($("#"+pics[i].id),150,150);
 		$("#"+pics[i].id).css({
-			top: ($("#ps1").height() - $("#"+scraps[i].id).height()) + ($("#"+scraps[i].id).height() * 0.1)
+			top: (($("#ps1").height() - $("#"+scraps[i].id).height()) / 2) + ($("#"+scraps[i].id).height() * 0.1)
 		});
 	}
 	for(var i in grays){

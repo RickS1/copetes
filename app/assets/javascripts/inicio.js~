@@ -42,12 +42,12 @@ $(window).on("scroll",function(){
 $(window).on("resize",function(){
 	var w_height = $("#background").height();
 	var reels = $(".reel");
-	void($("#b_wrapper")[0].offsetHeight);
+	//void($("#b_wrapper")[0].offsetHeight);
 	$("#inicio").css({
 		height: w_height + "px"
 	});
 	$("#main-img-w").css({
-		height: (w_height - 190) + "px"
+		height: (w_height - 200) + "px"
 	});
 	adjust("#img-main",818,888);
 	reels.each(function(d){

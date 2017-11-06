@@ -42,7 +42,8 @@ $(window).on("scroll",function(){
 $(window).on("resize",function(){
 	var w_height = $("#background").height();
 	var reels = $(".reel");
-	void($("#b_wrapper")[0].offsetHeight);
+	//void($("#b_wrapper")[0].offsetHeight);
+	$("#b_wrapper").width($(window).width() - 60);
 	$("#inicio").css({
 		height: w_height + "px"
 	});

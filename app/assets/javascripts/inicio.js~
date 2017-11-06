@@ -69,7 +69,7 @@ $(window).on("resize",function(){
 
 		adjust($("#"+seps[i].id),265,160);
 		$("#"+seps[i].id).css({
-			top: (($("#ps1").height() - $("#"+scraps[i].id).height()) / 2) + ($("#"+scraps[i].id).height() * 0.55),
+			top: (($("#ps1").height() - $("#"+scraps[i].id).height()) / 2) + ($("#"+scraps[i].id).height() * ($(window).width > 750 ? 0.62 : 0.55)),
 			left: (($("#ps1").width() - $("#"+scraps[i].id).width()) / 2) - ($("#"+scraps[i].id).width() * 0.05)
 		});
 	}

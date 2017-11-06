@@ -9,6 +9,10 @@ $(document).on("ready page:load",function(){
 		background: "rgba(150,150,150,0.6)",
 		cursorcolor: "red"
 	});
+	$('.nombre').flowtype({
+		minFont : 12,
+		maxFont : 90
+	});
   $(".op-menu a").on('click', function(event) {
     if (this.hash !== "") {
       event.preventDefault();
@@ -69,7 +73,7 @@ $(window).on("resize",function(){
 
 		adjust($("#"+seps[i].id),265,160);
 		$("#"+seps[i].id).css({
-			top: (($("#ps1").height() - $("#"+scraps[i].id).height()) / 2) + ($("#"+scraps[i].id).height() * ($(window).width() > 870 ? 0.62 : 0.55)),
+			top: (($("#ps1").height() - $("#"+scraps[i].id).height()) / 2) + ($("#"+scraps[i].id).height() * ($(window).width() > 870 ? 0.62 : 0.58)),
 			left: (($("#ps1").width() - $("#"+scraps[i].id).width()) / 2) - ($("#"+scraps[i].id).width() * 0.05)
 		});
 	}

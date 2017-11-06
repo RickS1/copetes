@@ -58,19 +58,19 @@ $(window).on("resize",function(){
 		adjust($("#"+pics[i].id),150,150);
 		$("#"+pics[i].id).css({
 			top: (($("#ps1").height() - $("#"+scraps[i].id).height()) / 2) + ($("#"+scraps[i].id).height() * 0.1),
-			left: (($("#ps1").height() - $("#"+scraps[i].id).height()) / 2) - ($("#"+scraps[i].id).height() * 0.2)
+			left: (($("#ps1").width() - $("#"+scraps[i].id).width()) / 2) - ($("#"+scraps[i].id).width() * 0.2)
 		});
 
 		adjust($("#"+grays[i].id),145,210);
 		$("#"+grays[i].id).css({
 			top: (($("#ps1").height() - $("#"+scraps[i].id).height()) / 2) + ($("#"+scraps[i].id).height() * 0.15),
-			left: (($("#ps1").height() - $("#"+scraps[i].id).height()) / 2) + ($("#"+scraps[i].id).height() * 0.8)
+			left: (($("#ps1").width() - $("#"+scraps[i].id).width()) / 2) + ($("#"+scraps[i].id).width() * 0.8)
 		});
 
 		adjust($("#"+seps[i].id),265,160);
 		$("#"+seps[i].id).css({
 			top: (($("#ps1").height() - $("#"+scraps[i].id).height()) / 2) + ($("#"+scraps[i].id).height() * 0.7),
-			left: (($("#ps1").height() - $("#"+scraps[i].id).height()) / 2) - ($("#"+scraps[i].id).height() * 0.05)
+			left: (($("#ps1").width() - $("#"+scraps[i].id).width()) / 2) - ($("#"+scraps[i].id).width() * 0.05)
 		});
 	}
 	reels.each(function(d){

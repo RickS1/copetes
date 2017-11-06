@@ -50,21 +50,28 @@ $(window).on("resize",function(){
 		height: (w_height - 200) + "px"
 	});
 	adjust("#img-main",818,888);
+
+	//Reajuste de fotos Integrantes
 	for(var i in scraps){
 		adjust($("#"+scraps[i].id),275,350);
-	}
-	for(var i in pics){
+
 		adjust($("#"+pics[i].id),150,150);
 		$("#"+pics[i].id).css({
 			top: (($("#ps1").height() - $("#"+scraps[i].id).height()) / 2) + ($("#"+scraps[i].id).height() * 0.1),
 			left: (($("#ps1").height() - $("#"+scraps[i].id).height()) / 2) - ($("#"+scraps[i].id).height() * 0.2)
 		});
-	}
-	for(var i in grays){
+
 		adjust($("#"+grays[i].id),145,210);
-	}
-	for(var i in seps){
+		$("#"+grays[i].id).css({
+			top: (($("#ps1").height() - $("#"+scraps[i].id).height()) / 2) + ($("#"+scraps[i].id).height() * 0.15),
+			left: (($("#ps1").height() - $("#"+scraps[i].id).height()) / 2) + ($("#"+scraps[i].id).height() * 0.8)
+		});
+
 		adjust($("#"+seps[i].id),265,160);
+		$("#"+seps[i].id).css({
+			top: (($("#ps1").height() - $("#"+scraps[i].id).height()) / 2) + ($("#"+scraps[i].id).height() * 0.7),
+			left: (($("#ps1").height() - $("#"+scraps[i].id).height()) / 2) - ($("#"+scraps[i].id).height() * 0.05)
+		});
 	}
 	reels.each(function(d){
 		reels[d].style.height = $(document).height() + "px";

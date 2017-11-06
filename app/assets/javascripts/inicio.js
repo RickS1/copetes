@@ -64,7 +64,7 @@ $(window).on("resize",function(){
 		adjust($("#"+grays[i].id),145,210);
 		$("#"+grays[i].id).css({
 			top: (($("#ps1").height() - $("#"+scraps[i].id).height()) / 2) + ($("#"+scraps[i].id).height() * 0.15),
-			left: (($("#ps1").width() - $("#"+scraps[i].id).width()) / 2) + ($("#"+scraps[i].id).width() * 0.8)
+			left: (($("#ps1").width() - $("#"+scraps[i].id).width()) / 2) + ($("#"+scraps[i].id).width() * 0.55)
 		});
 
 		adjust($("#"+seps[i].id),265,160);

@@ -122,11 +122,6 @@
 	filter: saturate(95%) brightness(150%) contrast(75%) grayscale(100%);
 	position: absolute;
 	z-index: 1;
-	-webkit-transform: rotate(0deg) translate(235px,55px);
-	-moz-transform: rotate(0deg) translate(235px,55px);
-	-ms-transform: rotate(0deg) translate(235px,55px);
-	-o-transform: rotate(0deg) translate(235px,55px);
-	transform: rotate(0deg) translate(235px,55px);
 }
 
 .pic-sepia{
@@ -140,11 +135,11 @@
 	filter: saturate(75%) brightness(120%) contrast(95%) sepia(100%);
 	position: absolute;
 	z-index: 0;
-	-webkit-transform: rotate(-5deg) translate(40px,230px);
-	-moz-transform: rotate(-5deg) translate(40px,230px);
-	-ms-transform: rotate(-5deg) translate(40px,230px);
-	-o-transform: rotate(-5deg) translate(40px,230px);
-	transform: rotate(-5deg) translate(40px,230px);
+	-webkit-transform: rotate(-5deg);
+	-moz-transform: rotate(-5deg);
+	-ms-transform: rotate(-5deg);
+	-o-transform: rotate(-5deg);
+	transform: rotate(-5deg);
 	-webkit-box-shadow: 25px 0 25px #000;
 	-moz-box-shadow: 25px 0 25px #000;
 	box-shadow: 25px 0 25px #000;

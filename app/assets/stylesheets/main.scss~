@@ -10,7 +10,7 @@
 }
 
 #img-main{
-	max-width: 50%;
+	max-width: 90%;
 	max-height: 90%;
 }
 

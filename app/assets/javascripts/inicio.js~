@@ -1,8 +1,7 @@
 $(document).on("ready page:load",function(){	
 	var ops = ["#op-bio","#op-integrantes","#op-material","#op-galeria","#op-contacto"], ancho_m = 0;
 	for(var i in ops){
-		console.log(ancho_m);
-		ancho_m = ancho_m + $(ops[i]).outerWidth();
+		ancho_m = ancho_m + $(ops[i]).outerWidth(true);
 	}
 	$("#menu-list").width(ancho_m);
 	$("body").niceScroll({
@@ -48,7 +47,7 @@ $(window).on("resize",function(){
 		height: w_height + "px"
 	});
 	$("#main-img-w").css({
-		height: (w_height - 215) + "px"
+		height: (w_height - 80) + "px"
 	});
 	adjust("#img-main",818,888);
 	reels.each(function(d){

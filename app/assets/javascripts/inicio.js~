@@ -10,7 +10,7 @@ $(document).on("ready page:load",function(){
 		cursorcolor: "red"
 	});
 	$('.nombre').flowtype({
-		minFont : 12,
+		maximum : 449,
 		maxFont : 90
 	});
   $(".op-menu a").on('click', function(event) {

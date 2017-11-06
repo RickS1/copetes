@@ -44,9 +44,7 @@ $(window).on("resize",function(){
 	$("#main-img-w").css({
 		height: (w_height - 215) + "px"
 	});
-	$("#img-main").css({
-		height: (w_height - 215) + "px"
-	});
+	adjust("#img-main",818,888);
 	reels.each(function(d){
 		reels[d].style.height = $(document).height() + "px";
 	});
@@ -66,12 +64,16 @@ $(window).on("resize",function(){
 		minHeight: w_height + "px"
 	});
 	$(window).trigger("scroll");
-	$(window).trigger("load");
 });
 
-window.onload = function() {
-	if (screen.width < 959) {
-		var mvp = document.getElementById('vp');
-		mvp.setAttribute('content','width=959');
+function adjust(element,w,h){
+	var w_h = $(window).height(), w_w = $(window).width();
+	if(w_h < w_w){
+		$(element).height("");
+		$(element).width(element.height()*(w/h));
 	}
+	else{
+		$(element).width("");
+		$(element).height(element.width()*(h/w));	
+	}	
 }

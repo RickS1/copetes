@@ -85,6 +85,12 @@
 		max-width: 275px;
 		min-width: 69px; 
 	} 
+	.photo-1, .pic-sat{
+		max-width: 150px;
+		min-width: 37px;
+		max-height: 150px;
+		min-height: 37px;
+	}
 }
 
 .photo-1{

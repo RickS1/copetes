@@ -74,25 +74,6 @@
 	width: 70%
 }
 
-@media only screen and (max-width: 750px){
-	.photos, .desc{
-		width: 100%;
-		float: none;
-	}
-	.scrap-sheet { 	
-		max-height: 350px;
-		min-height: 87px;
-		max-width: 275px;
-		min-width: 69px; 
-	} 
-	.photo-1, .pic-sat{
-		max-width: 150px;
-		min-width: 37px;
-		max-height: 150px;
-		min-height: 37px;
-	}
-}
-
 .photo-1{
 	border: 15px solid #fff;
 	border-bottom: 45px solid #fff;
@@ -125,6 +106,25 @@
 	min-height: 75px;
 	-webkit-filter: saturate(125%) brightness(75%) contrast(150%);
 	filter: saturate(125%) brightness(75%) contrast(150%);
+}
+
+@media only screen and (max-width: 750px){
+	.photos, .desc{
+		width: 100%;
+		float: none;
+	}
+	.scrap-sheet { 	
+		max-height: 350px;
+		min-height: 87px;
+		max-width: 275px;
+		min-width: 69px; 
+	} 
+	.photo-1, .pic-sat{
+		max-width: 150px;
+		min-width: 37px;
+		max-height: 150px;
+		min-height: 37px;
+	}
 }
 
 .pic-gray{

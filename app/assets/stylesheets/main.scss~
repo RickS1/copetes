@@ -44,7 +44,7 @@
 
 .scrapbook{
 	width:100%;
-	height: 390px;
+	height: 450px;
 	margin-top: 50px;
 }
 
@@ -158,10 +158,10 @@
 	}
 
 	.scrap-sheet { 	
-		max-height: 350px;
-		min-height: 87px;
-		max-width: 180px;
-		min-width: 37px;
+		max-height: 420px;
+		min-height: 105px;
+		max-width: 280px;
+		min-width: 70px;
 	}
 
 	.photo, .pic-sat{

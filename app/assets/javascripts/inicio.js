@@ -80,7 +80,7 @@ $(window).on("resize",function(){
 		minHeight: w_height + "px"
 	});
 	$("#integrantes").css({
-		minHeight: w_height + "px"
+		minHeight: w_height + "px",
 	});
 	$("#material").css({
 		minHeight: w_height + "px"

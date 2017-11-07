@@ -59,7 +59,7 @@ $(window).on("scroll",function(){
 			}
 	for(var i in tops){
 		var s = $(window).scrollTop();
-		if(s >= (tops[i][0] - (i > 0 ? 140 : 75) && s < tops[i][1]){
+		if(s >= (tops[i][0] - 85 && s < tops[i][1]){
 			if($("#op-"+tops[i][2])[0].className.indexOf("op-menu-active") < 0)
 				$("#op-"+tops[i][2])[0].className += " op-menu-active";
 			if($("#op-"+tops[i][2]+"-v")[0].className.indexOf("op-menu-active") < 0)

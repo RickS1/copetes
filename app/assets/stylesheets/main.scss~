@@ -289,9 +289,12 @@
 	-moz-transition: all 0.5s linear;
 	-o-transition: all 0.5s linear;
 	transition: all 0.5s linear;
-	color: #000;
 }
 
+#fb { color: #3b5998; }
+#yt { color: #cc181e; }
+#gm { color: #FFDEAD; }
+
 #social-list li:hover{
-	color: #DCDCDC;
+	color: #C0C0C0;
 }

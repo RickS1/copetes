@@ -192,6 +192,10 @@
 	}
 }
 
+@media only screen and (max-width: 475px){
+	.nombre { font-size: 60px; }
+}
+
 .datos{
 	width: 75%;
 	margin: 0 auto;
@@ -208,6 +212,10 @@
 	font-family: MetroRetroNF;
 	font-size: 30px;
 	color: #B8860B;
+}
+
+@media only screen and (max-width: 370px){
+	.campo { font-size: 25px; }
 }
 
 .valor{

@@ -55,6 +55,11 @@
 	position: relative;
 }
 
+.desc-fade{ display: none; }
+
+.desc-show{ display: block; }
+
+
 /* Fotos integrantes */
 
 .scrap-sheet{
@@ -153,9 +158,11 @@
 .nombre-r{ text-align: right; }
 
 @media only screen and (max-width: 870px){
-	.photos, .desc{
-		width: 100%;
-	}
+	.photos, .desc{ width: 100%; }
+
+	.desc-fade { display: block; }
+
+	.desc-show { display: none; }
 
 	.scrap-sheet { 	
 		max-height: 420px;
@@ -212,6 +219,10 @@
 	font-family: MetroRetroNF;
 	font-size: 30px;
 	color: #B8860B;
+}
+
+@media only screen and (max-width: 370px){
+	.campo { font-size: 25px; }
 }
 
 .valor{

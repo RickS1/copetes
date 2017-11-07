@@ -34,7 +34,7 @@
 }
 
 @font-face {
-	font-family: "Trikker";
+	font-family: "TrikkerRegular";
 	src: asset-url('Trikker-Regular.ttf');
 }
 

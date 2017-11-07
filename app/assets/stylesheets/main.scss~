@@ -52,7 +52,7 @@
 }
 
 .text-bio{
-	font-family: Trikker;
+	font-family: TrikkerRegular;
 	font-size: 48px;
 	width: 90%;
 	text-align: justify;

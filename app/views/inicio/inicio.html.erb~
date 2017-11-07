@@ -2,7 +2,7 @@
 	<%= image_tag("cl-inst.jpg", id: "img-back") %>
 </div>
 <div id="menu-h">
-	<ul class="menu-list">
+	<ul id="menu-list">
 		<li class="op-menu" id="op-bio"><a href="#bio">Biografía</a></li>
 		<li class="op-menu" id="op-integrantes"><a href="#integrantes">Integrantes</a></li>
 		<li class="op-menu" id="op-material"><a href="#material">Material</a></li>
@@ -15,7 +15,7 @@
 <div id="out-v">
 </div>
 <div id="menu-v">
-	<ul class="menu-list">
+	<ul id="menu-list-v">
 		<li class="op-menu" id="op-bio-v"><a href="#bio">Biografía</a></li>
 		<li class="op-menu" id="op-integrantes-v"><a href="#integrantes">Integrantes</a></li>
 		<li class="op-menu" id="op-material-v"><a href="#material">Material</a></li>

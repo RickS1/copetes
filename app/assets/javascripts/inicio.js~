@@ -124,10 +124,10 @@ $(window).on("resize",function(){
 		minHeight: (w_height-100) + "px"
 	});
 	console.log($("#cont-h").height());
+	$(window).trigger("scroll");
 	reels.each(function(d){
 		reels[d].style.height = $("#cont-h").height() + "px";
 	});
-	$(window).trigger("scroll");
 });
 
 function adjust(element,w,h){

@@ -123,10 +123,10 @@ $(window).on("resize",function(){
 	$("#contacto").css({
 		minHeight: (w_height-100) + "px"
 	});
-	console.log($("#cont-h").height());
+	console.log($("#inicio").outerHeight()+$("#bio").outerHeight()+$("#integrantes").outerHeight()+$("#material").outerHeight()+$("#galeria").outerHeight()+$("#contacto").outerHeight());
 	$(window).trigger("scroll");
 	reels.each(function(d){
-		reels[d].style.height = $("#cont-h").height() + "px";
+		reels[d].style.height = ($("#inicio").outerHeight()+$("#bio").outerHeight()+$("#integrantes").outerHeight()+$("#material").outerHeight()+$("#galeria").outerHeight()+$("#contacto").outerHeight()) + "px";
 	});
 });
 

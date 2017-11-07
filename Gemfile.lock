@@ -54,8 +54,8 @@ GEM
     erubis (2.7.0)
     execjs (2.7.0)
     ffi (1.9.18)
-    flowtype-rails (1.1.1)
-      railties (>= 3.1)
+    font-awesome-sass (4.7.0)
+      sass (>= 3.2)
     globalid (0.4.1)
       activesupport (>= 4.2.0)
     i18n (0.9.1)
@@ -164,7 +164,7 @@ PLATFORMS
 DEPENDENCIES
   byebug
   coffee-rails (~> 4.1.0)
-  flowtype-rails
+  font-awesome-sass (~> 4.7.0)
   jbuilder (~> 2.0)
   jquery-rails
   nicescroll-rails

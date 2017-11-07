@@ -64,7 +64,7 @@ $(window).on("resize",function(){
 		adjust($("#"+grays[i].id),145,210);
 		$("#"+grays[i].id).css({
 			top: (($("#ps1").height() - $("#"+scraps[i].id).height()) / 2) + ($("#"+scraps[i].id).height() * 0.08),
-			left: (($("#ps1").width() - $("#"+scraps[i].id).width()) / 2) + ($("#"+scraps[i].id).width() * ($(window).width() > 870 ? 0.65 : 0.55))
+			left: (($("#ps1").width() - $("#"+scraps[i].id).width()) / 2) + ($("#"+scraps[i].id).width() * ($(window).width() > 870 ? 0.65 : 0.6))
 		});
 
 		adjust($("#"+seps[i].id),265,160);

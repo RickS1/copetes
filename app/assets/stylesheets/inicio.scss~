@@ -122,7 +122,7 @@ a{
 
 .op-menu:hover, .op-menu-active{
 	/*color: #DAA520;*/
-	color: #767040 !important;
+	color: #DAA520 !important;
 	-webkit-transform: rotate(10deg);
 	-moz-transform: rotate(10deg);
 	-ms-transform: rotate(10deg);

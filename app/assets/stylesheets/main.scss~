@@ -29,7 +29,7 @@
 .sect{
 	width: 100%;
 	padding-top: 145px;
-	overflow-y: visible;
+	overflow-y: auto;
 }
 
 .text-bio{
@@ -54,6 +54,11 @@
 	float: left;
 	position: relative;
 }
+
+.desc-fade{ display: none; }
+
+.desc-show{ display: block; }
+
 
 /* Fotos integrantes */
 
@@ -153,9 +158,11 @@
 .nombre-r{ text-align: right; }
 
 @media only screen and (max-width: 870px){
-	.photos, .desc{
-		width: 100%;
-	}
+	.photos, .desc{ width: 100%; }
+
+	.desc-fade { display: block; }
+
+	.desc-show { display: none; }
 
 	.scrap-sheet { 	
 		max-height: 420px;
@@ -193,7 +200,7 @@
 }
 
 @media only screen and (max-width: 475px){
-	.nombre { font-size: 60px; }
+	.nombre { font-size: 57px; }
 }
 
 .datos{

@@ -29,7 +29,7 @@
 .sect{
 	width: 100%;
 	padding-top: 145px;
-	overflow-y: visible;
+	overflow-y: auto;
 }
 
 .text-bio{
@@ -200,7 +200,7 @@
 }
 
 @media only screen and (max-width: 475px){
-	.nombre { font-size: 60px; }
+	.nombre { font-size: 57px; }
 }
 
 .datos{

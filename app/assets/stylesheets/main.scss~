@@ -17,6 +17,10 @@
 	max-height: 90%;
 }
 
+.wrap-cont{
+	max-width: 1500px;
+}
+
 @media only screen and (max-width: 565px){
 	#img-main { width: 75%; }
 }
@@ -47,7 +51,7 @@
 }
 
 .text-bio{
-	font-family: BoyzRGrossNF;
+	font-family: AeroviasBrasilNF;
 	font-size: 48px;
 	width: 90%;
 	text-align: justify;
@@ -252,6 +256,8 @@
 	font-size: 30px;
 	color: #000;
 }
+
+#integrantes .text { padding-bottom: 45px; }
 
 /* Sección de Material */
 

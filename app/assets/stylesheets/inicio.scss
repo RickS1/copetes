@@ -151,6 +151,17 @@ a{
 	transform: translate(-50%,-50%);
 }
 
+#menu-list{
+	left: 0;
+	right: 0;
+	padding-right: 55px;
+	-webkit-transform: translate(0,-50%);
+	-moz-transform: translate(0,-50%);
+	-ms-transform: translate(0,-50%);
+	-o-transform: translate(0,-50%);
+	transform: translate(0,-50%);
+}
+
 #menu-list-v{
 	z-index: -1;
 	overflow: hidden;

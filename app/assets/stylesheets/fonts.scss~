@@ -14,6 +14,11 @@
 }
 
 @font-face {
+	font-family: "BoyzRGrossShadowNF";
+	src: asset-url('BoyzRGrossShadowNF.ttf') format("truetype");
+}
+
+@font-face {
 	font-family: "AirstreamNF";
 	src: asset-url('AirstreamNF.ttf') format("truetype");
 }

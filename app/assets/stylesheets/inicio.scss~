@@ -72,10 +72,6 @@ a{
 	color: #DAA520;
 }
 
-@media only screen and (max-width: 870px){
-	#menu-toggle { z-index: 3; }
-}
-
 .body{
 	position: relative;
 	min-height: 100%;
@@ -116,6 +112,11 @@ a{
 	-ms-transform: translate(-50%,-50%);
 	-o-transform: translate(-50%,-50%);
 	transform: translate(-50%,-50%);
+}
+
+@media only screen and (max-width: 870px){
+	#menu-toggle { z-index: 3; }
+	#menu-list { display: none; }
 }
 
 .op-menu{

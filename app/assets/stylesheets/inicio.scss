@@ -151,8 +151,19 @@ a{
 	transform: translate(-50%,-50%);
 }
 
+#menu-list-v{
+	width: 0;
+	height: 0;
+	z-index: -1;
+}
+
 #menu-list-v .op-menu{
 	float: none !important;
+	-webkit-transition: all 0.5s linear;
+	-moz-transition: all 0.5s linear;
+	-o-transition: all 0.5s linear;
+	transition: all 0.5s linear;
+	opacity: 0;
 }
 
 @media only screen and (max-width: 870px){

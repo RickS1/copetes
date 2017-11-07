@@ -17,6 +17,8 @@ $(document).on("ready page:load",function(){
   });
 	$("#menu-toggle").on("click",function(){
 		$("#out-v").css({zIndex: "4"});
+		$("#menu-list-v").css({zIndex: "5"});
+		$("#menu-list-v .op-menu").css({opacity: "1"});
 		$("#menu-v").css({	
 			width: "280px",
 			height: "300px"
@@ -25,6 +27,18 @@ $(document).on("ready page:load",function(){
 
 	$("#out-v").on("click",function(){
 		$("#out-v").css({zIndex: "-1"});
+		$("#menu-list-v").css({zIndex: "-1"});
+		$("#menu-list-v .op-menu").css({opacity: "0"});
+		$("#menu-v").css({	
+			width: "0px",
+			height: "0px"
+		});
+	});
+
+	$("#menu-list-v .op-menu").on("click",function(){
+		$("#out-v").css({zIndex: "-1"});
+		$("#menu-list-v").css({zIndex: "-1"});
+		$("#menu-list-v .op-menu").css({opacity: "0"});
 		$("#menu-v").css({	
 			width: "0px",
 			height: "0px"

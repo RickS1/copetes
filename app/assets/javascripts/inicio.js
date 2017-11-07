@@ -1,9 +1,4 @@
 $(document).on("ready page:load",function(){	
-	var ops = ["#op-bio","#op-integrantes","#op-material","#op-galeria","#op-contacto"], ancho_m = 0;
-	for(var i in ops){
-		ancho_m = ancho_m + $(ops[i]).outerWidth(true);
-	}
-	$("#menu-list").width(ancho_m);
 	$("body").niceScroll({
 		cursorwidth: "3px",
 		background: "rgba(150,150,150,0.6)",
@@ -42,6 +37,11 @@ $(window).on("scroll",function(){
 $(window).on("resize",function(){
 	var w_height = $("#background").height();
 	var reels = $(".reel"), scraps = $(".scrap-sheet"), grays = $(".pic-gray"), seps = $(".pic-sepia"), pics = $(".photo");
+	var ops = ["#op-bio","#op-integrantes","#op-material","#op-galeria","#op-contacto"], ancho_m = 0;
+	for(var i in ops){
+		ancho_m = ancho_m + $(ops[i]).outerWidth(true);
+	}
+	$("#menu-list").width(ancho_m);
 	$("#b_wrapper").width($(window).width() - 60);
 	$("#inicio").css({
 		height: w_height + "px"

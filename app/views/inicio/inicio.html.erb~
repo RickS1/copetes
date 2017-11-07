@@ -2,7 +2,7 @@
 	<%= image_tag("cl-inst.jpg", id: "img-back") %>
 </div>
 <div id="menu-h">
-	<ul id="menu-list">
+	<ul class="menu-list">
 		<li class="op-menu" id="op-bio"><a href="#bio">Biografía</a></li>
 		<li class="op-menu" id="op-integrantes"><a href="#integrantes">Integrantes</a></li>
 		<li class="op-menu" id="op-material"><a href="#material">Material</a></li>
@@ -12,8 +12,16 @@
 </div>
 <%= image_tag("cl-logo.png", alt: "Los Copetes Locos", id: "logo-h") %>
 <div id="menu-toggle"><%= icon("bars") %></div>
+<div id="out-v">
+</div>
 <div id="menu-v">
-
+	<ul class="menu-list">
+		<li class="op-menu" id="op-bio-v"><a href="#bio">Biografía</a></li>
+		<li class="op-menu" id="op-integrantes-v"><a href="#integrantes">Integrantes</a></li>
+		<li class="op-menu" id="op-material-v"><a href="#material">Material</a></li>
+		<li class="op-menu" id="op-galeria-v"><a href="#galeria">Galería</a></li>
+		<li class="op-menu" id="op-contacto-v"><a href="#contacto">Contacto</a></li>
+	</ul>
 </div>
 <div id="cont-h" data-spy="scroll" data-target="#menu-list">
 <div class="body reel" style="left:0;">

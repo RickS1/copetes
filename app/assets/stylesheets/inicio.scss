@@ -140,7 +140,7 @@ a{
 	z-index: 3;
 }
 
-#menu-list{
+#menu-list, #menu-list-v{
 	top: 50%;
 	left: 50%;
 	position: absolute;
@@ -149,6 +149,10 @@ a{
 	-ms-transform: translate(-50%,-50%);
 	-o-transform: translate(-50%,-50%);
 	transform: translate(-50%,-50%);
+}
+
+#menu-list-v .op-menu{
+	float: none !important;
 }
 
 @media only screen and (max-width: 870px){

@@ -89,7 +89,7 @@ $(window).on("resize",function(){
 		});
 	}
 	reels.each(function(d){
-		reels[d].style.height = $("b_wrapper").outerHeight(true) + "px";
+		reels[d].style.height = $("#b_wrapper").outerHeight(true) + "px";
 	});
 	$("#bio").css({
 		minHeight: w_height + "px"

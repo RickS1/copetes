@@ -37,7 +37,7 @@
 }
 
 #bio p{
-	margin: 16px auto;
+	margin: 16px auto 0;
 }
 
 .sect{
@@ -47,11 +47,12 @@
 }
 
 .text-bio{
-	font-family: AirstreamNF;
-	font-size: 40px;
+	font-family: BoyzRGrossNF;
+	font-size: 48px;
 	width: 90%;
 	text-align: justify;
 	margin: 0 auto;
+	padding-bottom: 45px;
 }
 
 /* Sección de integrantes */
@@ -251,6 +252,8 @@
 	font-size: 30px;
 	color: #000;
 }
+
+#integrantes .text { padding-bottom: 45px; }
 
 /* Sección de Material */
 

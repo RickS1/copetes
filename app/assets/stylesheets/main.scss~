@@ -37,7 +37,7 @@
 }
 
 #bio p{
-	margin: 16px auto;
+	margin: 16px auto 0;
 }
 
 .sect{
@@ -47,17 +47,18 @@
 }
 
 .text-bio{
-	font-family: AirstreamNF;
-	font-size: 40px;
+	font-family: BoyzRGrossNF;
+	font-size: 48px;
 	width: 90%;
 	text-align: justify;
 	margin: 0 auto;
+	padding-bottom: 45px;
 }
 
 /* Sección de integrantes */
 
 #integrantes{
-	background-color: rgba(220,20,60,0.3)
+	background-color: rgba(220,20,60,0.3);
 	-webkit-box-shadow: 0px 38px 12px rgba(0,0,0,0.7);
 	-moz-box-shadow: 0px 38px 12px rgba(0,0,0,0.7);
 	box-shadow: 0px 38px 12px rgba(0,0,0,0.7);

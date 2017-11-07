@@ -27,7 +27,7 @@ $(document).on("ready page:load",function(){
 
 	$("#out-v").on("click",function(){
 		$("#out-v").css({zIndex: "-1"});
-		$("#menu-list-v").css({zIndex: "-1"});
+		$("#menu-list-v").css({zIndex: "-1", width: "auto", height: "auto"});
 		$("#menu-list-v .op-menu").css({opacity: "0"});
 		$("#menu-v").css({	
 			width: "0px",
@@ -36,7 +36,7 @@ $(document).on("ready page:load",function(){
 	});
 
 	$("#menu-list-v .op-menu").on("click",function(){
-		$("#out-v").css({zIndex: "-1"});
+		$("#out-v").css({zIndex: "-1", width: "", height: ""});
 		$("#menu-list-v").css({zIndex: "-1"});
 		$("#menu-list-v .op-menu").css({opacity: "0"});
 		$("#menu-v").css({	

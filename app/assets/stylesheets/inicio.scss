@@ -13,10 +13,6 @@ a{
 	height: 100%;
 	-webkit-filter: sepia(100%) opacity(65%) saturate(130%) blur(1px);
 	filter: sepia(100%) opacity(65%) saturate(130%) blur(1px);
-	/*background-image: image-url("cl-inst.jpg");
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;*/
 	position: fixed;
 	z-index: 1;
 	top: 0;
@@ -59,6 +55,23 @@ a{
 	box-shadow: 25px 0 25px #000;
 }
 
+#menu-toggle{
+	position: fixed;
+	cursor: pointer;
+	right: 30px;
+	top: 20px;
+	font-size:50px;
+	-webkit-transition: all 0.5s linear;
+	-moz-transition: all 0.5s linear;
+	-o-transition: all 0.5s linear;
+	transition: all 0.5s linear;
+	z-index: 0;
+}
+
+#menu-toggle:hover{
+	color: #DAA520;
+}
+
 .body{
 	position: relative;
 	min-height: 100%;
@@ -99,6 +112,11 @@ a{
 	-ms-transform: translate(-50%,-50%);
 	-o-transform: translate(-50%,-50%);
 	transform: translate(-50%,-50%);
+}
+
+@media only screen and (max-width: 870px){
+	#menu-toggle { z-index: 3; }
+	#menu-list { display: none; }
 }
 
 .op-menu{

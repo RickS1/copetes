@@ -125,7 +125,7 @@ $(window).on("resize",function(){
 	});
 	console.log($("#cont-h").height());
 	reels.each(function(d){
-		reels[d].style.height = $("#cont-h").height();
+		reels[d].style.height = $("#cont-h").height() + "px";
 	});
 	$(window).trigger("scroll");
 });

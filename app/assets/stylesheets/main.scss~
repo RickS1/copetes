@@ -29,7 +29,7 @@
 .sect{
 	width: 100%;
 	padding-top: 145px;
-	overflow-y: auto;
+	overflow-y: visible;
 }
 
 .text-bio{

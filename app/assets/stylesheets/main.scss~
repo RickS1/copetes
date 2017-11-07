@@ -178,7 +178,6 @@
 	font-family: BoyzRGrossNF;
 	font-size: 90px;
 	text-align: center;
-	padding-left: 35px;
 	color: #1E90FF;
 }
 

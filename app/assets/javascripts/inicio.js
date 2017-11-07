@@ -78,6 +78,10 @@ $(window).on("resize",function(){
 	}
 	$("#menu-list").width(ancho_m);
 	$("#b_wrapper").width($(window).width() - 60);
+	console.log($("#b_wrapper").outerHeight());
+	reels.each(function(d){
+		reels[d].style.height = $("#b_wrapper").outerHeight() + "px";
+	});
 	$("#inicio").css({
 		height: w_height + "px"
 	});
@@ -122,10 +126,6 @@ $(window).on("resize",function(){
 	});
 	$("#contacto").css({
 		minHeight: (w_height-100) + "px"
-	});
-	console.log($("#b_wrapper").outerHeight());
-	reels.each(function(d){
-		reels[d].style.height = $("#b_wrapper").outerHeight() + "px";
 	});
 	$(window).trigger("scroll");
 });

@@ -73,7 +73,7 @@ a{
 
 #menu-h{
 	width: 100%;
-	height: 90px;
+	height: 75px;
 	position: fixed;
 	background-image: image-url("paper.jpeg");
 	background-repeat: no-repeat;
@@ -154,7 +154,7 @@ a{
 #menu-list{
 	left: initial;
 	right: 0;
-	padding-right: 55px;
+	padding-right: 15%;
 	-webkit-transform: translate(0,-50%);
 	-moz-transform: translate(0,-50%);
 	-ms-transform: translate(0,-50%);

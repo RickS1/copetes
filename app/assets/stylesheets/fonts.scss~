@@ -24,8 +24,8 @@
 }
 
 @font-face {
-	font-family: "AeroviasBrasilNF";
-	src: asset-url('AeroviasBrasilNF.ttf') format("truetype");
+	font-family: "VeteranTypewriter";
+	src: asset-url('veteran-typewriter.regular.ttf');
 }
 
 @font-face {

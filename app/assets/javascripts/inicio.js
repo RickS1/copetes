@@ -74,7 +74,7 @@ $(window).on("resize",function(){
 		});
 	}
 	reels.each(function(d){
-		reels[d].style.height = $(document).height() + "px";
+		reels[d].style.height = $("b_wrapper").outerHeight(true) + "px";
 	});
 	$("#bio").css({
 		minHeight: w_height + "px"
@@ -105,3 +105,19 @@ function adjust(element,w,h){
 		$(element).height($(element).width()*(h/w));	
 	}	
 }
+
+$("#menu-toggle").on("click",function(){
+	$("out-v").css({zIndex: "4"});
+	$("#menu-v").css({	
+		width: "280px",
+		height: "300px"
+	});
+});
+
+$("#out-v").on("click",function(){
+	$("out-v").css({zIndex: "-1"});
+	$("#menu-v").css({	
+		width: "0px",
+		height: "0px"
+	});
+});

@@ -123,11 +123,11 @@ $(window).on("resize",function(){
 	$("#contacto").css({
 		minHeight: w_height + "px"
 	});
-	$(window).trigger("scroll");
 	console.log($("#b_wrapper").outerHeight(true));
 	reels.each(function(d){
 		reels[d].style.height = $("#b_wrapper").outerHeight(true) + "px";
 	});
+	$(window).trigger("scroll");
 });
 
 function adjust(element,w,h){

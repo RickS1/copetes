@@ -108,10 +108,6 @@ $(window).on("resize",function(){
 			left: (($("#ps1").width() - $("#"+scraps[i].id).width()) / 2) - ($("#"+scraps[i].id).width() * 0.05)
 		});
 	}
-	console.log($("#b_wrapper").outerHeight(true));
-	reels.each(function(d){
-		reels[d].style.height = $("#b_wrapper").outerHeight(true) + "px";
-	});
 	$("#bio").css({
 		minHeight: w_height + "px"
 	});
@@ -128,6 +124,10 @@ $(window).on("resize",function(){
 		minHeight: w_height + "px"
 	});
 	$(window).trigger("scroll");
+	console.log($("#b_wrapper").outerHeight(true));
+	reels.each(function(d){
+		reels[d].style.height = $("#b_wrapper").outerHeight(true) + "px";
+	});
 });
 
 function adjust(element,w,h){

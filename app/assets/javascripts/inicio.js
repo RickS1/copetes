@@ -16,7 +16,7 @@ $(document).on("ready page:load",function(){
     }
   });
 	$("#menu-toggle").on("click",function(){
-		$("out-v").css({zIndex: "4"});
+		$("out-v").css({'z-index': "4"});
 		$("#menu-v").css({	
 			width: "280px",
 			height: "300px"
@@ -24,7 +24,7 @@ $(document).on("ready page:load",function(){
 	});
 
 	$("#out-v").on("click",function(){
-		$("out-v").css({zIndex: "-1"});
+		$("out-v").css({'z-index': "-1"});
 		$("#menu-v").css({	
 			width: "0px",
 			height: "0px"

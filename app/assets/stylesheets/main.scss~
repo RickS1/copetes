@@ -324,5 +324,5 @@
 #gm { color: #FFDEAD; }
 
 #social-list li:hover{
-	color: #696969;
+	color: #DCDCDC;
 }

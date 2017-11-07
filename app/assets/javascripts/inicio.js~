@@ -123,13 +123,9 @@ $(window).on("resize",function(){
 	$("#contacto").css({
 		minHeight: (w_height-100) + "px"
 	});
-	var sects = $(".sect"), alt = 0;
-	sects.each(function(d){
-		alt = alt + $("#"+sects[i].id).outerHeight();
-	});
-	console.log($("#b_wrapper").outerHeight() + " -- " + alt);
+	console.log(window.getComputedStyle($("#b_wrapper")[0]).height);
 	reels.each(function(d){
-		reels[d].style.height = alt + "px";
+		reels[d].style.height = window.getComputedStyle($("#b_wrapper")[0]).height;
 	});
 	$(window).trigger("scroll");
 });

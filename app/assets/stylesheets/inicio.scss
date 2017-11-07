@@ -152,9 +152,8 @@ a{
 }
 
 #menu-list-v{
-	width: 0;
-	height: 0;
 	z-index: -1;
+	display: none;
 }
 
 #menu-list-v .op-menu{

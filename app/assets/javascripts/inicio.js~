@@ -52,12 +52,15 @@ $(window).on("scroll",function(){
 	var ops = ["bio","integrantes","material","galeria","contacto"];
 			for(var j in ops){
 				$("#op-"+ops[j])[0].className = $("#op-"+ops[j])[0].className.replace(/ +op-menu-active/,"");
+				$("#op-"+ops[j]+"-v")[0].className = $("#op-"+ops[j])[0].className.replace(/ +op-menu-active/,"");
 			}
 	for(var i in tops){
 		var s = $(window).scrollTop();
 		if(s >= tops[i][0] && s < tops[i][1]){
 			if($("#op-"+tops[i][2])[0].className.indexOf("op-menu-active") < 0)
 				$("#op-"+tops[i][2])[0].className += " op-menu-active";
+			if($("#op-"+tops[i][2]+"-v")[0].className.indexOf("op-menu-active") < 0)
+				$("#op-"+tops[i][2]+"-v")[0].className += " op-menu-active";
 			break;
 		}
 	}

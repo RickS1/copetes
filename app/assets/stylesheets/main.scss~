@@ -2,6 +2,9 @@
 	background-color: rgba(169,169,169,0.7);
 	width: 100%;
 	position: relative;
+	-webkit-box-shadow: 0px 38px 12px rgba(0,0,0,0.7);
+	-moz-box-shadow: 0px 38px 12px rgba(0,0,0,0.7);
+	box-shadow: 0px 38px 12px rgba(0,0,0,0.7);
 }
 
 #main-img-w{
@@ -26,6 +29,13 @@
 
 /* Sección de biografía */
 
+#bio{
+	background-color: rgba(152,251,152,0.2);
+	-webkit-box-shadow: 0px 38px 12px rgba(0,0,0,0.7);
+	-moz-box-shadow: 0px 38px 12px rgba(0,0,0,0.7);
+	box-shadow: 0px 38px 12px rgba(0,0,0,0.7);
+}
+
 .sect{
 	width: 100%;
 	padding-top: 100px;
@@ -41,6 +51,13 @@
 }
 
 /* Sección de integrantes */
+
+#integrantes{
+	background-color: rgba(220,20,60,0.3)
+	-webkit-box-shadow: 0px 38px 12px rgba(0,0,0,0.7);
+	-moz-box-shadow: 0px 38px 12px rgba(0,0,0,0.7);
+	box-shadow: 0px 38px 12px rgba(0,0,0,0.7);
+}
 
 .scrapbook{
 	width:100%;

@@ -255,11 +255,20 @@
 	background-color: rgba(128,128,128,0.3);
 }
 
+#contacto p{
+	font-size: 50px;
+	font-family: AirstreamNF;
+	margin: 0 auto;
+	margin-top: 35px;
+	width: 85%;
+}
+
 @media only screen and (max-width: 553px){
-	#contacto p { font-size:  }
+	#contacto p { font-size: 35px; }
 }
 
 #social-list{
+	margin-top: 25px;
 	list-style-type: none;
 	overflow: hidden;
 	font-size: 45px;

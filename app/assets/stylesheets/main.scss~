@@ -185,6 +185,8 @@
 @media only screen and (max-width: 870px){
 	.photos, .desc{ width: 100%; }
 
+	.photos { padding-bottom: 20px; }
+
 	.desc-fade { display: block; }
 
 	.desc-show { display: none; }

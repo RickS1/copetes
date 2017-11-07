@@ -153,6 +153,7 @@ a{
 
 #menu-list-v{
 	z-index: -1;
+	overflow: hidden;
 }
 
 #menu-list-v .op-menu{

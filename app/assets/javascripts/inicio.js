@@ -15,9 +15,11 @@ $(document).on("ready page:load",function(){
       });
     }
   });
+	$("#menu-list-v").css({width: "0", height: "0"});
+
 	$("#menu-toggle").on("click",function(){
 		$("#out-v").css({zIndex: "4"});
-		$("#menu-list-v").css({zIndex: "5", display: "block"});
+		$("#menu-list-v").css({zIndex: "5", width: "", height: ""});
 		$("#menu-list-v .op-menu").css({opacity: "1"});
 		$("#menu-v").css({	
 			width: "280px",
@@ -25,9 +27,10 @@ $(document).on("ready page:load",function(){
 		});
 	});
 
+
 	$("#out-v").on("click",function(){
 		$("#out-v").css({zIndex: "-1"});
-		$("#menu-list-v").css({zIndex: "-1", display: "none"});
+		$("#menu-list-v").css({zIndex: "-1", width: "0", height: "0"});
 		$("#menu-list-v .op-menu").css({opacity: "0"});
 		$("#menu-v").css({	
 			width: "0px",
@@ -37,7 +40,7 @@ $(document).on("ready page:load",function(){
 
 	$("#menu-list-v .op-menu").on("click",function(){
 		$("#out-v").css({zIndex: "-1"});
-		$("#menu-list-v").css({zIndex: "-1", display: "none"});
+		$("#menu-list-v").css({zIndex: "-1", width: "0", height: "0"});
 		$("#menu-list-v .op-menu").css({opacity: "0"});
 		$("#menu-v").css({	
 			width: "0px",

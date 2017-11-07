@@ -153,7 +153,11 @@ a{
 
 #menu-list-v{
 	z-index: -1;
-	display: none;
+	overflow: hidden;
+	-webkit-transition: all 0.5s linear;
+	-moz-transition: all 0.5s linear;
+	-o-transition: all 0.5s linear;
+	transition: all 0.5s linear;
 }
 
 #menu-list-v .op-menu{

@@ -9,7 +9,7 @@ $(document).on("ready page:load",function(){
       event.preventDefault();
       var hash = this.hash;
       $('html, body').animate({
-        scrollTop: $(hash).offset().top - 85
+        scrollTop: $(hash).offset().top - 95
       }, 800, function(){
         window.location.hash = hash;
       });
@@ -59,7 +59,7 @@ $(window).on("scroll",function(){
 			}
 	for(var i in tops){
 		var s = $(window).scrollTop();
-		if(s >= (tops[i][0] - 85 && s < tops[i][1]){
+		if(s >= (tops[i][0] - 95) && s < tops[i][1]){
 			if($("#op-"+tops[i][2])[0].className.indexOf("op-menu-active") < 0)
 				$("#op-"+tops[i][2])[0].className += " op-menu-active";
 			if($("#op-"+tops[i][2]+"-v")[0].className.indexOf("op-menu-active") < 0)
@@ -125,7 +125,7 @@ $(window).on("resize",function(){
 	});
 	console.log(window.getComputedStyle($("#b_wrapper")[0]).height);
 	reels.each(function(d){
-		reels[d].style.height = window.getComputedStyle($("#b_wrapper")[0]).height;
+		reels[d].style.height = $("#cont-h").height();
 	});
 	$(window).trigger("scroll");
 });

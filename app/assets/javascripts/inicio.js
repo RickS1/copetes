@@ -123,9 +123,9 @@ $(window).on("resize",function(){
 	$("#contacto").css({
 		minHeight: (w_height-100) + "px"
 	});
-	console.log(window.getComputedStyle($("#b_wrapper")[0]).height);
+	console.log($("#cont-h").height());
 	reels.each(function(d){
-		reels[d].style.height = window.getComputedStyle($("#b_wrapper")[0]).height;
+		reels[d].style.height = $("#cont-h").height();
 	});
 	$(window).trigger("scroll");
 });

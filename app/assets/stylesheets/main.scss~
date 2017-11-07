@@ -36,6 +36,10 @@
 	box-shadow: 0px 38px 12px rgba(0,0,0,0.7);
 }
 
+#bio p{
+	margin: 16px auto;
+}
+
 .sect{
 	width: 100%;
 	padding-top: 100px;
@@ -44,7 +48,7 @@
 
 .text-bio{
 	font-family: AirstreamNF;
-	font-size: 25px;
+	font-size: 40px;
 	width: 90%;
 	text-align: justify;
 	margin: 0 auto;

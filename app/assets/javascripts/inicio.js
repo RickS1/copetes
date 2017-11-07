@@ -15,6 +15,21 @@ $(document).on("ready page:load",function(){
       });
     }
   });
+	$("#menu-toggle").on("click",function(){
+		$("out-v").css({zIndex: "4"});
+		$("#menu-v").css({	
+			width: "280px",
+			height: "300px"
+		});
+	});
+
+	$("#out-v").on("click",function(){
+		$("out-v").css({zIndex: "-1"});
+		$("#menu-v").css({	
+			width: "0px",
+			height: "0px"
+		});
+	});
 	$(window).trigger("resize");
 });
 
@@ -105,19 +120,3 @@ function adjust(element,w,h){
 		$(element).height($(element).width()*(h/w));	
 	}	
 }
-
-$("#menu-toggle").on("click",function(){
-	$("out-v").css({zIndex: "4"});
-	$("#menu-v").css({	
-		width: "280px",
-		height: "300px"
-	});
-});
-
-$("#out-v").on("click",function(){
-	$("out-v").css({zIndex: "-1"});
-	$("#menu-v").css({	
-		width: "0px",
-		height: "0px"
-	});
-});

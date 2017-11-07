@@ -134,7 +134,8 @@ Algunas de las influencias mas fuertes en la música son Chuck Berry, Little Ric
 
 	<div id="contacto" class="sect">
 		<div class="sect-title">Contacto</div>
-		<div class="text" style="test-align:center">
+		<div class="text">
+			<p style="text-align:justify">Para más información, nos ponemos a su disposición a través de los siguientes medios:</p>
 			<ul id="social-list">
 				<li><%= link_to(icon("facebook-square"),"https://www.facebook.com/loscopeteslocos/", target: "_blank") %></li>
 				<li><%= link_to(icon("youtube-play"),"https://www.youtube.com/channel/UCZBUUXC9ddLsQwUGGNiyQWA", target: "_blank") %></li>

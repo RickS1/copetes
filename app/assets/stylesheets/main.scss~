@@ -188,6 +188,7 @@
 	.nombre{ 
 		line-height: 0.8em; 
 		text-align: center;
+		padding-left: 0;
 	}
 }
 

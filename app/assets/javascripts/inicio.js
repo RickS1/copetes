@@ -9,13 +9,6 @@ $(document).on("ready page:load",function(){
 		background: "rgba(150,150,150,0.6)",
 		cursorcolor: "red"
 	});
-$('.nombre').flowtype({
-		minimum : 130,
-		maximum : 380,
-		minFont: 60,
-		maxFont : 90,
-		fontRatio: 20
-	});
   $(".op-menu a").on('click', function(event) {
     if (this.hash !== "") {
       event.preventDefault();

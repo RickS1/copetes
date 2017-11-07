@@ -27,7 +27,6 @@
 <div class="body reel" style="left:0;">
 </div>
 <div class="body wrapper" id="b_wrapper">
-<div class="wrap-cont">
 	<div id="inicio">
 		<div id="main-img-w">
 			<%= image_tag("main.png",id: "img-main") %>
@@ -42,6 +41,7 @@
 	</div>
 
 	<div id="bio" class="sect">
+	<div class="wrap-cont">
 		<div class="sect-title">Biografía</div>
 		<div class="text-bio"> 
 			<p>Los copetes locos dieron inicio a su carrera musical el 03 de enero de 2015, la banda esta formada por Daniel Aguilar (bajo, voz y coros), Erik Tenorio (Guitarra rítmica, voz y coros), Giovanny Zárate (Guitarra armónica, voz y coros) y Hugo Aguilar (batería). El proyecto surge por el gusto a la escena del rock and roll de los años 50's y 60's en los cuatro integrantes, pues dicho estilo estuvo presente desde la niñez en cada uno de ellos; también surge por la inquietud de rescatar la escena del rock and roll  mexicano y de crear música propia basada en dicho estilo.</p>
@@ -51,11 +51,12 @@ Algunas de las influencias mas fuertes en la música son Chuck Berry, Little Ric
 			<p>Actualmente cuentan con 10 canciones propias de estilo rockabilly y rock and roll, basadas las letras de las melodías en temas cotidianos de los jóvenes (como el baile, los amores y la diversión), donde destacan títulos como “Yo quiero que me digas”, “Tan Linda” y “La doctora Rock and roll”, además de un extenso repertorio de los clásicos rockanrolleros para animar y traer de vuelta esos gloriosos años cincuenteros.</p>
 		</div>
 	</div>
+	</div>
 
 	<div id="integrantes" class="sect">
+		<div class="wrap-cont">
 		<div class="sect-title">Integrantes</div>
 		<div class="text" style="overflow:hidden;">
-
 			<div class="scrapbook">
 				<div class="photos" id="ps1">
 					<%= image_tag("scrap.jpg", class: "scrap-sheet", id: "scrap-1") %>
@@ -120,19 +121,27 @@ Algunas de las influencias mas fuertes en la música son Chuck Berry, Little Ric
 					</div>
 				</div>
 			</div>
-
+		</div>
 		</div>
 	</div>
 
 	<div id="material" class="sect">
+		<div class="wrap-cont">
 		<div class="sect-title">Material</div>
+
+		</div>
 	</div>
 
 	<div id="galeria" class="sect">
+		<div class="wrap-cont">
 		<div class="sect-title">Galería</div>
+
+
+		</div>
 	</div>
 
 	<div id="contacto" class="sect">
+		<div class="wrap-cont">
 		<div class="sect-title">Contacto</div>
 		<div class="text">
 			<p style="text-align:justify">Para más información, nos ponemos a su disposición a través de los siguientes medios:</p>
@@ -143,8 +152,9 @@ Algunas de las influencias mas fuertes en la música son Chuck Berry, Little Ric
 			</ul>
 		</div>
 	</div>
+	</div>
 </div>
-</div>
+
 <div class="body reel" style="right:0;">
 </div>
 </div>

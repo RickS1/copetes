@@ -108,11 +108,6 @@ $(window).on("resize",function(){
 			left: (($("#ps1").width() - $("#"+scraps[i].id).width()) / 2) - ($("#"+scraps[i].id).width() * 0.05)
 		});
 	}
-
-	console.log($("#b_wrapper").outerHeight());
-	reels.each(function(d){
-		reels[d].style.height = $("#b_wrapper").outerHeight() + "px";
-	});
 	$("#bio").css({
 		minHeight: (w_height-100) + "px"
 	});
@@ -127,6 +122,14 @@ $(window).on("resize",function(){
 	});
 	$("#contacto").css({
 		minHeight: (w_height-100) + "px"
+	});
+	var sects = $(".sect"), alt = 0;
+	sects.each(function(d){
+		alt = alt + $("#"+sects[i].id).outerHeight();
+	});
+	console.log($("#b_wrapper").outerHeight() + " -- " + alt);
+	reels.each(function(d){
+		reels[d].style.height = alt + "px";
 	});
 	$(window).trigger("scroll");
 });

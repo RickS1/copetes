@@ -109,19 +109,19 @@ $(window).on("resize",function(){
 		});
 	}
 	$("#bio").css({
-		minHeight: w_height + "px"
+		minHeight: (w_height-100) + "px"
 	});
 	$("#integrantes").css({
-		minHeight: w_height + "px",
+		minHeight: (w_height-100) + "px",
 	});
 	$("#material").css({
-		minHeight: w_height + "px"
+		minHeight: (w_height-100) + "px"
 	});
 	$("#galeria").css({
-		minHeight: w_height + "px"
+		minHeight: (w_height-100) + "px"
 	});
 	$("#contacto").css({
-		minHeight: w_height + "px"
+		minHeight: (w_height-100) + "px"
 	});
 	console.log($("#b_wrapper").outerHeight(true));
 	reels.each(function(d){

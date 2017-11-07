@@ -19,6 +19,7 @@
 
 .wrap-cont{
 	max-width: 1200px;
+	margin: 0 auto;
 }
 
 @media only screen and (max-width: 565px){
@@ -176,12 +177,10 @@
 .nombre{
 	font-family: BoyzRGrossNF;
 	font-size: 90px;
-	text-align: left;
+	text-align: center;
 	padding-left: 35px;
 	color: #1E90FF;
 }
-
-.nombre-r{ text-align: right; }
 
 @media only screen and (max-width: 870px){
 	.photos, .desc{ width: 100%; }
@@ -257,7 +256,7 @@
 	color: #000;
 }
 
-#integrantes .text { padding-bottom: 45px; }
+#integrantes .text { padding-bottom: 65px; }
 
 /* Sección de Material */
 
@@ -299,7 +298,7 @@
 	margin-top: 25px;
 	list-style-type: none;
 	overflow: hidden;
-	font-size: 45px;
+	font-size: 65px;
 	display: inline-block;
 	position: relative;
 	left: 50%;
@@ -324,5 +323,5 @@
 #gm { color: #FFDEAD; }
 
 #social-list li:hover{
-	color: #FFD700;
+	color: #696969;
 }

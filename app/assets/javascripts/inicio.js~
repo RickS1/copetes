@@ -9,9 +9,12 @@ $(document).on("ready page:load",function(){
 		background: "rgba(150,150,150,0.6)",
 		cursorcolor: "red"
 	});
-	$('.nombre').flowtype({
-		maximum : 449,
-		maxFont : 90
+$('.nombre').flowtype({
+		minimum : 130,
+		maximum : 800,
+		minFont: 25,
+		maxFont : 90,
+		fontRatio: 20
 	});
   $(".op-menu a").on('click', function(event) {
     if (this.hash !== "") {

@@ -11,8 +11,8 @@ $(document).on("ready page:load",function(){
 	});
 $('.nombre').flowtype({
 		minimum : 130,
-		maximum : 800,
-		minFont: 25,
+		maximum : 380,
+		minFont: 60,
 		maxFont : 90,
 		fontRatio: 20
 	});

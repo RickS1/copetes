@@ -248,6 +248,8 @@
 }
 
 #social-list li{
+	float: left;
+	margin: 0 8px;
 	-webkit-transition: all 0.5s linear;
 	-moz-transition: all 0.5s linear;
 	-o-transition: all 0.5s linear;

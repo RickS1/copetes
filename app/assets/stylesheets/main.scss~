@@ -28,7 +28,7 @@
 
 .sect{
 	width: 100%;
-	padding-top: 145px;
+	padding-top: 100px;
 	overflow-y: visible;
 }
 
@@ -229,4 +229,32 @@
 	font-family: IronickNF;
 	font-size: 30px;
 	color: #000;
+}
+
+/* Sección de Contacto */
+
+#social-list{
+	list-style-type: none;
+	overflow: hidden;
+	font-size: 45px;
+	display: inline-block;
+	position: relative;
+	left: 50%;
+	-webkit-transform: translate(-50%,0);
+	-moz-transform: translate(-50%,0);
+	-ms-transform: translate(-50%,0);
+	-o-transform: translate(-50%,0);
+	transform: translate(-50%,0);
+}
+
+#social-list li{
+	-webkit-transition: all 0.5s linear;
+	-moz-transition: all 0.5s linear;
+	-o-transition: all 0.5s linear;
+	transition: all 0.5s linear;
+	color: #000;
+}
+
+#social-list li:hover{
+	color: #DCDCDC;
 }

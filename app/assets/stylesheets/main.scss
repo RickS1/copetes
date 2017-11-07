@@ -26,6 +26,13 @@
 
 /* Sección de biografía */
 
+#bio{
+	background-color: rgba(216,191,216,0.7);
+	-webkit-box-shadow: 0px 38px 12px rgba(0,0,0,0.7);
+	-moz-box-shadow: 0px 38px 12px rgba(0,0,0,0.7);
+	box-shadow: 0px 38px 12px rgba(0,0,0,0.7);
+}
+
 .sect{
 	width: 100%;
 	padding-top: 100px;
@@ -41,6 +48,13 @@
 }
 
 /* Sección de integrantes */
+
+#integrantes{
+	background-color: rgba(255,160,122,0.7);
+	-webkit-box-shadow: 0px 38px 12px rgba(0,0,0,0.7);
+	-moz-box-shadow: 0px 38px 12px rgba(0,0,0,0.7);
+	box-shadow: 0px 38px 12px rgba(0,0,0,0.7);
+}
 
 .scrapbook{
 	width:100%;

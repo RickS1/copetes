@@ -14,6 +14,5 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require jquery.nicescroll
-//= require flowtype
 //= require_tree .
 

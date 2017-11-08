@@ -4,7 +4,6 @@ $(document).on("ready page:load",function(){
 		background: "rgba(150,150,150,0.6)",
 		cursorcolor: "red"
 	});
-	var par1 = new Parallax($("#ps1")[0]);
   $(".op-menu a").on('click', function(event) {
     if (this.hash !== "") {
       event.preventDefault();

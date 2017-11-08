@@ -27,7 +27,7 @@
 <div class="body reel" style="left:0;">
 </div>
 <div class="body wrapper" id="b_wrapper">
-	<div id="inicio">
+	<div id="inicio" class="sect" style="padding-top:0 !important;">
 		<div id="main-img-w">
 			<%= image_tag("main.png",id: "img-main") %>
 		</div>

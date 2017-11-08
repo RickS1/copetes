@@ -81,6 +81,7 @@ GEM
       railties (>= 3.1)
     nokogiri (1.8.1)
       mini_portile2 (~> 2.3.0)
+    parallax-rails (1.0.0)
     pg (0.21.0)
     rack (1.6.8)
     rack-test (0.6.3)
@@ -168,6 +169,7 @@ DEPENDENCIES
   jbuilder (~> 2.0)
   jquery-rails
   nicescroll-rails
+  parallax-rails
   pg
   rails (= 4.2.6)
   rails_12factor

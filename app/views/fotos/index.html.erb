@@ -6,7 +6,7 @@
   <thead>
     <tr>
       <th>Imagen</th>
-      <th>Desc</th>
+      <th>Descripción</th>
       <th colspan="3"></th>
     </tr>
   </thead>
@@ -14,7 +14,7 @@
   <tbody>
     <% @fotos.each do |foto| %>
       <tr>
-        <td><%= foto.imagen.url %></td>
+        <td><%= image_tag(foto.imagen.url) %></td>
         <td><%= foto.desc %></td>
         <td><%= link_to 'Show', foto %></td>
         <td><%= link_to 'Edit', edit_foto_path(foto) %></td>

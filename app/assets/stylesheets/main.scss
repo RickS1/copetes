@@ -141,8 +141,8 @@
 	min-width: 150px;
 	max-height: 300px;
 	min-height: 150px;
-	-webkit-filter: saturate(125%) brightness(75%) contrast(150%);
-	filter: saturate(125%) brightness(75%) contrast(150%);
+	-webkit-filter: saturate(125%) brightness(115%) contrast(150%);
+	filter: saturate(125%) brightness(115%) contrast(150%);
 }
 
 .pic-gray{
@@ -259,7 +259,7 @@
 	color: #000;
 }
 
-#integrantes .text { padding-bottom: 65px; }
+#integrantes .text, .text-bio { padding-bottom: 105px; }
 
 /* Sección de Material */
 

@@ -30,6 +30,7 @@ gem 'font-awesome-sass', '~> 4.7.0'
 gem 'devise'
 gem "paperclip", "~> 5.0.0"
 gem 'rails-uikit-sass'
+gem 'non-stupid-digest-assets'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'

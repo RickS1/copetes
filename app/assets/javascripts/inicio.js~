@@ -74,8 +74,8 @@ $(window).on("resize",function(){
 	var reels = $(".reel"), scraps = $(".scrap-sheet"), grays = $(".pic-gray"), seps = $(".pic-sepia"), pics = $(".photo");
 	var ops = $("#menu-list .op-menu"), ancho_m = 0;
 	for(var i in ops){
-		if(i == ops.length - 1)break;
-		ancho_m = ancho_m + $(ops[i]).outerWidth(true);
+		if(i == ops.length - 1) break;
+		ancho_m = ancho_m + $("#"+ops[i].id).outerWidth(true);
 	}
 	$("#menu-list").width(ancho_m);
 	$("#b_wrapper").width($(window).width() - 60);

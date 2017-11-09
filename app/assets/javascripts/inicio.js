@@ -120,14 +120,17 @@ $(window).on("resize",function(){
 		minHeight: (w_height-100) + "px"
 	});
 	var ops = $("#menu-list .op-menu"), ancho_m = 0;
+	var sects = $(".sect"), alto_b = 0;
 
 	setTimeout(function(){
 		for(var i in ops){
-			console.log(ops[i].id + " -- " + $("#"+ops[i].id).outerWidth(true));
 			ancho_m = ancho_m + $("#"+ops[i].id).outerWidth(true);
 		}
+		for(var i in sects){
+			alto_b = alto_b + $("#"+sects[i].id).outerHeight(true);
+		}
 		reels.each(function(d){
-			reels[d].style.height = ($("#inicio").outerHeight()+$("#bio").outerHeight()+$("#integrantes").outerHeight()+$("#material").outerHeight()+$("#galeria").outerHeight()+$("#contacto").outerHeight()) + "px";
+			reels[d].style.height = alto_b + "px";
 		});
 	}, 300);
 	$(window).trigger("scroll");

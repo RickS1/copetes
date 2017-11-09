@@ -31,7 +31,7 @@ gem 'devise'
 gem "paperclip", "~> 5.0.0"
 <<<<<<< HEAD
 =======
-gem "uikit-sass-rails"
+gem 'rails-uikit-sass'
 >>>>>>> ad5561ea2c1de98b0bfc4bd07697841c4dcd77c2
 
 # Use ActiveModel has_secure_password

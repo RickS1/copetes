@@ -29,10 +29,7 @@ gem 'nicescroll-rails'
 gem 'font-awesome-sass', '~> 4.7.0'
 gem 'devise'
 gem "paperclip", "~> 5.0.0"
-<<<<<<< HEAD
-=======
 gem 'rails-uikit-sass'
->>>>>>> ad5561ea2c1de98b0bfc4bd07697841c4dcd77c2
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'

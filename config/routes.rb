@@ -1,6 +1,4 @@
 Rails.application.routes.draw do
-  resources :fotos
-  devise_for :admins
   get 'inicio' => 'inicio#inicio', :as => :inicio
 
   # The priority is based upon order of creation: first created -> highest priority.

@@ -12,7 +12,10 @@
  *
  *= require_self
  */
+@import "font-awesome-sprockets";
+@import "font-awesome";
 @import "fonts";
+@import "uikit";
 @import "inicio";
 @import "scroll";
 @import "main";

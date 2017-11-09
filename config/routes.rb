@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :fotos
   devise_for :admins
   get 'inicio' => 'inicio#inicio', :as => :inicio
 

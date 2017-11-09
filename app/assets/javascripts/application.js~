@@ -14,7 +14,5 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require jquery.nicescroll
-//= require parallax
-//= require jquery.parallax
 //= require_tree .
 

@@ -94,6 +94,8 @@ GEM
       railties (>= 3.1)
     nokogiri (1.8.1)
       mini_portile2 (~> 2.3.0)
+    non-stupid-digest-assets (1.0.9)
+      sprockets (>= 2.0)
     orm_adapter (0.5.0)
     paperclip (5.0.0)
       activemodel (>= 4.2.0)
@@ -124,6 +126,9 @@ GEM
       rails-deprecated_sanitizer (>= 1.0.1)
     rails-html-sanitizer (1.0.3)
       loofah (~> 2.0)
+    rails-uikit-sass (2.27.2)
+      non-stupid-digest-assets (~> 1.0)
+      sass-rails (~> 5.0)
     rails_12factor (0.0.3)
       rails_serve_static_assets
       rails_stdout_logging
@@ -197,6 +202,7 @@ DEPENDENCIES
   paperclip (~> 5.0.0)
   pg
   rails (= 4.2.8)
+  rails-uikit-sass
   rails_12factor
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)

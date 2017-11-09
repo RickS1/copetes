@@ -52,7 +52,7 @@
 }
 
 .text-bio{
-	font-family: Trykker;
+	font-family: Teutonic;
 	font-size: 48px;
 	width: 90%;
 	text-align: justify;
@@ -321,6 +321,7 @@
 
 #fb { color: #3b5998; }
 #yt { color: #cc181e; }
+#tw { color: #00aced; }
 #gm { color: #FFDEAD; }
 
 #social-list li:hover{

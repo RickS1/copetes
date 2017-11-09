@@ -61,10 +61,10 @@ Algunas de las influencias mas fuertes en la música son Chuck Berry, Little Ric
 				<div class="photos" id="ps1">
 					<%= image_tag("scrap.jpg", class: "scrap-sheet", id: "scrap-1") %>
 					<div data-depth="0.5" class="photo" id="p1">
-						<%= image_tag("dan1.jpg", alt: "Daniel", class: "pic-sat", id: "pic-sat-1") %>
+						<%= image_tag("dan1.jpg", alt: "Daniel", class: "pic-sat", id: "pic-sat-1" ) %>
 					</div>
-					<%= image_tag("dan2.png", alt: "Daniel", class: "pic-gray", id: "pic-gray-1") %>
-					<%= image_tag("dan3.jpg", alt: "Daniel", class: "pic-sepia", id: "pic-sep-1") %>
+					<%= image_tag("dan2.png", alt: "Daniel", class: "pic-gray", id: "pic-gray-1", data: {depth: "0.3"}) %>
+					<%= image_tag("dan3.jpg", alt: "Daniel", class: "pic-sepia", id: "pic-sep-1", data: {depth: "0.4"}) %>
 				</div>
 				<div class="desc">
 					<div class="nombre">Daniel Aguilar</div>
@@ -148,6 +148,7 @@ Algunas de las influencias mas fuertes en la música son Chuck Berry, Little Ric
 			<ul id="social-list">
 				<li id="fb"><%= link_to(icon("facebook-square"),"https://www.facebook.com/loscopeteslocos/", target: "_blank") %></li>
 				<li id="yt"><%= link_to(icon("youtube-play"),"https://www.youtube.com/channel/UCZBUUXC9ddLsQwUGGNiyQWA", target: "_blank") %></li>
+				<li id="tw"><%= link_to(icon("twitter-square"),"https://twitter.com/loscopeteslocos", target: "_blank") %></li>
 				<li id="gm"><%= link_to(icon("envelope"),"mailto:los.copeteslocos@gmail.com") %></li> 
 			</ul>
 		</div>

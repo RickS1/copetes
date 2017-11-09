@@ -72,7 +72,7 @@ $(window).on("scroll",function(){
 $(window).on("resize",function(){
 	var w_height = $("#background").height();
 	var reels = $(".reel"), scraps = $(".scrap-sheet"), grays = $(".pic-gray"), seps = $(".pic-sepia"), pics = $(".photo");
-	var ops = ["#op-bio","#op-integrantes","#op-material","#op-galeria","#op-contacto"], ancho_m = 0;
+	var ops = $("#menu-list .op-menu"), ancho_m = 0;
 	for(var i in ops){
 		ancho_m = ancho_m + $(ops[i]).outerWidth(true);
 	}
@@ -124,10 +124,10 @@ $(window).on("resize",function(){
 		minHeight: (w_height-100) + "px"
 	});
 	console.log($("#inicio").outerHeight()+$("#bio").outerHeight()+$("#integrantes").outerHeight()+$("#material").outerHeight()+$("#galeria").outerHeight()+$("#contacto").outerHeight());
-	$(window).trigger("scroll");
 	reels.each(function(d){
 		reels[d].style.height = ($("#inicio").outerHeight()+$("#bio").outerHeight()+$("#integrantes").outerHeight()+$("#material").outerHeight()+$("#galeria").outerHeight()+$("#contacto").outerHeight()) + "px";
 	});
+	$(window).trigger("scroll");
 });
 
 function adjust(element,w,h){

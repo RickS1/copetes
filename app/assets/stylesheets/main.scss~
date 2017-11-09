@@ -52,7 +52,7 @@
 }
 
 .text-bio{
-	font-family: Trykker;
+	font-family: Teutonic;
 	font-size: 48px;
 	width: 90%;
 	text-align: justify;

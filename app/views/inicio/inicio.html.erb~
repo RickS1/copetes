@@ -61,10 +61,10 @@ Algunas de las influencias mas fuertes en la música son Chuck Berry, Little Ric
 				<div class="photos" id="ps1">
 					<%= image_tag("scrap.jpg", class: "scrap-sheet", id: "scrap-1") %>
 					<div data-depth="0.5" class="photo" id="p1">
-						<%= image_tag("dan1.jpg", alt: "Daniel", class: "pic-sat", id: "pic-sat-1") %>
+						<%= image_tag("dan1.jpg", alt: "Daniel", class: "pic-sat", id: "pic-sat-1" ) %>
 					</div>
-					<%= image_tag("dan2.png", alt: "Daniel", class: "pic-gray", id: "pic-gray-1") %>
-					<%= image_tag("dan3.jpg", alt: "Daniel", class: "pic-sepia", id: "pic-sep-1") %>
+					<%= image_tag("dan2.png", alt: "Daniel", class: "pic-gray", id: "pic-gray-1", data: {depth: "0.3"}) %>
+					<%= image_tag("dan3.jpg", alt: "Daniel", class: "pic-sepia", id: "pic-sep-1", data: {depth: "0.4"}) %>
 				</div>
 				<div class="desc">
 					<div class="nombre">Daniel Aguilar</div>

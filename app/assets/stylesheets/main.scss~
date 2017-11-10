@@ -259,7 +259,7 @@
 	color: #000;
 }
 
-#integrantes .text, #galeria.text, .text-bio { padding-bottom: 105px; }
+#integrantes .text, #galeria .text, .text-bio { padding-bottom: 105px; }
 
 /* Sección de Material */
 

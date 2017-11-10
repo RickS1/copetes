@@ -19,18 +19,18 @@ $(document).on("ready page:load",function(){
 
 	$("#menu-toggle").on("click",function(){
 		$("#out-v").css({zIndex: "4"});
-		$("#menu-list-v").css({zIndex: "5", width: "", height: ""});
+		$("#menu-list-v").css({zIndex: "5", width: "", height: "", overflow: "visible"});
 		$("#menu-list-v .op-menu").css({opacity: "1"});
 		$("#menu-v").css({	
 			width: "280px",
-			height: "300px"
+			height: "300px",
 		});
 	});
 
 
 	$("#out-v").on("click",function(){
 		$("#out-v").css({zIndex: "-1"});
-		$("#menu-list-v").css({zIndex: "-1", width: "0", height: "0"});
+		$("#menu-list-v").css({zIndex: "-1", width: "0", height: "0", overflow: ""});
 		$("#menu-list-v .op-menu").css({opacity: "0"});
 		$("#menu-v").css({	
 			width: "0px",

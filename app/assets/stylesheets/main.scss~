@@ -241,7 +241,7 @@
 	width: 75%;
 	margin: 0 auto;
 	padding: 3px 25px;
-	background-color: rgba(112,128,144,0.9);
+	background-color: rgba(176,196,222,0.9);
 	-webkit-box-shadow: 25px 0 25px #000;
 	-moz-box-shadow: 25px 0 25px #000;
 	box-shadow: 25px 0 25px #000;

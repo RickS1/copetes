@@ -42,12 +42,14 @@ $(document).on("ready page:load",function(){
 
 	$("#menu-list-v .op-menu").on("click",function(){
 		$("#out-v").css({zIndex: "-1"});
-		$("#menu-list-v").css({zIndex: "-1", width: "0", height: "0"});
+		setTimeout(function(){
+			$("#menu-list-v").css({zIndex: "-1", width: "0", height: "0", overflow: ""});
+			$("#menu-v").css({	
+				width: "0px",
+				height: "0px"
+			});
+		}, 500);
 		$("#menu-list-v .op-menu").css({opacity: "0"});
-		$("#menu-v").css({	
-			width: "0px",
-			height: "0px"
-		});
 	});
 	$(window).trigger("resize");
 });

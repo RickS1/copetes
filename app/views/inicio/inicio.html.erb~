@@ -116,7 +116,7 @@ Algunas de las influencias mas fuertes en la música son Chuck Berry, Little Ric
 					<div class="nombre">Erik Tenorio</div>
 					<div class="datos">
 						<p><span class="campo">Fecha de nacimiento: </span><span class="valor">21 de abril de 1993</span><br>
-						<p><span class="campo">Rol: </span><span class="valor">Guitarra rítmica, voz</span><br>
+						<p><span class="campo">Rol: </span><span class="valor">Voz, guitarra rítmica</span><br>
 
 					</div>
 				</div>
@@ -127,7 +127,7 @@ Algunas de las influencias mas fuertes en la música son Chuck Berry, Little Ric
 					<div class="nombre nombre-r">Giovanny Zárate</div>
 					<div class="datos">
 						<p><span class="campo">Fecha de nacimiento: </span><span class="valor">26 de agosto de 1994</span><br>
-						<p><span class="campo">Rol: </span><span class="valor">Voz, guitarra armónica</span><br>
+						<p><span class="campo">Rol: </span><span class="valor">Guitarra armónica, voz</span><br>
 
 					</div>
 				</div>
@@ -183,7 +183,7 @@ Algunas de las influencias mas fuertes en la música son Chuck Berry, Little Ric
 					<ul class="uk-slider uk-grid-width-medium-1-1 uk-grid-width-small-1-1 uk-grid-width-large-1-1">
 						<% @i.times do |i| %>
 						<div class="uk-container slide">
-							<li class="uk-width-large-1-3 uk-width-medium-1-2 uk-width-small-1-1 uk-container-center sombra"><img class="uk-responsive-height uk-responsive-width" src="<%= image_url('cops'+(i+1).to_s+'.jpg') %>"></li>
+							<li class="uk-width-large-1-1 uk-width-medium-1-1 uk-width-small-1-1 uk-container-center sombra"><img class="uk-responsive-height uk-responsive-width" src="<%= image_url('cops'+(i+1).to_s+'.jpg') %>"></li>
 						</div>
 						<% end %>
 					</ul>
@@ -215,3 +215,14 @@ Algunas de las influencias mas fuertes en la música son Chuck Berry, Little Ric
 <div class="body reel" style="right:0;">
 </div>
 </div>
+
+<script> 
+var $buoop = {notify:{i:11,f:52,o:44,s:9,c:59},unsecure:true,api:5,text:"Su navegador no está actualizado. Es posible que presente inconsistencias al cargar la página.",text_es:"Su navegador no está actualizado. Es posible que presente inconsistencias al cargar la página."}; 
+function $buo_f(){ 
+ var e = document.createElement("script"); 
+ e.src = "//browser-update.org/update.min.js"; 
+ document.body.appendChild(e);
+};
+try {document.addEventListener("DOMContentLoaded", $buo_f,false)}
+catch(e){window.attachEvent("onload", $buo_f)}
+</script>

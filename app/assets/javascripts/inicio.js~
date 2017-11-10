@@ -9,7 +9,7 @@ $(document).on("ready page:load",function(){
       event.preventDefault();
       var hash = this.hash;
       $('html, body').animate({
-        scrollTop: $(hash).offset().top - 95
+        scrollTop: $(hash).offset().top
       }, 800, function(){
         window.location.hash = hash;
       });
@@ -19,23 +19,25 @@ $(document).on("ready page:load",function(){
 
 	$("#menu-toggle").on("click",function(){
 		$("#out-v").css({zIndex: "4"});
-		$("#menu-list-v").css({zIndex: "5", width: "", height: ""});
+		$("#menu-list-v").css({zIndex: "5", width: "", height: "", overflow: "visible"});
 		$("#menu-list-v .op-menu").css({opacity: "1"});
 		$("#menu-v").css({	
 			width: "280px",
-			height: "300px"
+			height: "300px",
 		});
 	});
 
 
 	$("#out-v").on("click",function(){
 		$("#out-v").css({zIndex: "-1"});
-		$("#menu-list-v").css({zIndex: "-1", width: "0", height: "0"});
+		setTimeout(function(){
+			$("#menu-list-v").css({zIndex: "-1", width: "0", height: "0", overflow: ""});
+			$("#menu-v").css({	
+				width: "0px",
+				height: "0px"
+			});
+		}, 500);
 		$("#menu-list-v .op-menu").css({opacity: "0"});
-		$("#menu-v").css({	
-			width: "0px",
-			height: "0px"
-		});
 	});
 
 	$("#menu-list-v .op-menu").on("click",function(){
@@ -120,14 +122,17 @@ $(window).on("resize",function(){
 		minHeight: (w_height-100) + "px"
 	});
 	var ops = $("#menu-list .op-menu"), ancho_m = 0;
+	var sects = $(".sect"), alto_b = 0;
 
 	setTimeout(function(){
 		for(var i in ops){
-			console.log(ops[i].id + " -- " + $("#"+ops[i].id).outerWidth(true));
 			ancho_m = ancho_m + $("#"+ops[i].id).outerWidth(true);
 		}
+		for(var i in sects){
+			alto_b = alto_b + $("#"+sects[i].id).outerHeight(true);
+		}
 		reels.each(function(d){
-			reels[d].style.height = ($("#inicio").outerHeight()+$("#bio").outerHeight()+$("#integrantes").outerHeight()+$("#material").outerHeight()+$("#galeria").outerHeight()+$("#contacto").outerHeight()) + "px";
+			reels[d].style.height = alto_b + "px";
 		});
 	}, 300);
 	$(window).trigger("scroll");

@@ -168,6 +168,7 @@ ul { padding-left: 0; }
 #menu-list-v{
 	z-index: -1;
 	overflow: hidden;
+	line-height: normal;
 	-webkit-transition: all 0.5s linear;
 	-moz-transition: all 0.5s linear;
 	-o-transition: all 0.5s linear;
@@ -183,7 +184,7 @@ ul { padding-left: 0; }
 	opacity: 0;
 }
 
-@media only screen and (max-width: 870px){
+@media only screen and (max-width: 960px){
 	#menu-toggle { z-index: 3; }
 	#menu-list { display: none; }
 }

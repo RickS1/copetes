@@ -14,5 +14,6 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require jquery.nicescroll
+//= require uikit
 //= require_tree .
 

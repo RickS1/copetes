@@ -128,17 +128,41 @@ Algunas de las influencias mas fuertes en la música son Chuck Berry, Little Ric
 	<div id="material" class="sect">
 		<div class="wrap-cont">
 		<div class="sect-title">Material</div>
-
+			<div class="text">
+			<div style="padding-top:70px;" class="uk-slidenav-position" data-uk-slider>
+				<div class="uk-slider-container">
+					<ul class="uk-slider uk-grid-width-medium-1-3 uk-grid-width-small-1-2 uk-grid-width-large-1-4">
+						<% @vids.each do |v| %>
+						<div class="uk-container slide">
+							<li class="uk-container-center"><a href="<%= 'https://www.youtube.com/watch?v='+v %>" style="display:inline-block;" data-uk-lightbox title=""><img class="uk-responsive-height uk-responsive-width" src="<%= 'https://img.youtube.com/vi/'+v+'/0.jpg' %>"></img></a></li>
+						</div>
+						<% end %>
+					</ul>
+				</div>
+    		<a href="" class="uk-slidenav uk-slidenav-contrast uk-slidenav-previous" data-uk-slider-item="previous"></a>
+    		<a href="" class="uk-slidenav uk-slidenav-contrast uk-slidenav-next" data-uk-slider-item="next"></a>
+			</div>
+			</div>
 		</div>
 	</div>
 
 	<div id="galeria" class="sect">
 		<div class="wrap-cont">
-		<div class="sect-title">Galería</div>
-			<div id="gallery">
-				<% 11.times do |i| %>
-				<img src="<%= image_url('cops'+i.to_s+'.jpg') %>">
-				<% end %>
+			<div class="sect-title">Galería</div>
+			<div class="text">
+			<div style="padding-top:70px;" class="uk-slidenav-position" data-uk-slider>
+				<div class="uk-slider-container">
+					<ul class="uk-slider uk-grid-width-medium-1-1 uk-grid-width-small-1-1 uk-grid-width-large-1-1">
+						<% @i.times do |i| %>
+						<div class="uk-container slide">
+							<li class="uk-width-large-1-3 uk-width-medium-1-2 uk-width-small-1-1 uk-container-center sombra"><img class="uk-responsive-height uk-responsive-width" src="<%= image_url('cops'+(i+1).to_s+'.jpg') %>"></li>
+						</div>
+						<% end %>
+					</ul>
+				</div>
+    		<a href="" class="uk-slidenav uk-slidenav-contrast uk-slidenav-previous" data-uk-slider-item="previous"></a>
+    		<a href="" class="uk-slidenav uk-slidenav-contrast uk-slidenav-next" data-uk-slider-item="next"></a>
+			</div>
 			</div>
 		</div>
 	</div>

@@ -135,10 +135,14 @@ Algunas de las influencias mas fuertes en la música son Chuck Berry, Little Ric
 	<div id="galeria" class="sect">
 		<div class="wrap-cont">
 		<div class="sect-title">Galería</div>
-			<div id="gallery">
-				<% 11.times do |i| %>
-				<img src="<%= image_url('cops'+i.to_s+'.jpg') %>">
-				<% end %>
+			<div data-uk-slider>
+				<div class="uk-slider-container">
+					<ul class="uk-slider uk-grid-width-medium-1-4">
+						<% 11.times do |i| %>
+							<li><img src="<%= image_url('cops'+i.to_s+'.jpg') %>"></li>
+						<% end %>
+					</ul>
+				</div>
 			</div>
 		</div>
 	</div>

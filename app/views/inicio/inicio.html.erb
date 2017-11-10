@@ -134,19 +134,21 @@ Algunas de las influencias mas fuertes en la música son Chuck Berry, Little Ric
 
 	<div id="galeria" class="sect">
 		<div class="wrap-cont">
-		<div class="sect-title">Galería</div>
-			<div class="uk-slidenav-position" data-uk-slider="{center:true}">
+			<div class="sect-title">Galería</div>
+			<div class="text">
+			<div style="padding-top:65pxX;" class="uk-slidenav-position" data-uk-slider="{center:true}">
 				<div class="uk-slider-container">
 					<ul class="uk-slider uk-grid-width-medium-1-1 uk-grid-width-small-1-1 uk-grid-width-large-1-1">
 						<% 10.times do |i| %>
 						<div class="uk-container slide">
-							<li class="uk-width-large-1-3 uk-width-medium-1-2 uk-width-small-1-1 uk-container-center"><img style="max-height:90%;" class="uk-responsive-width" src="<%= image_url('cops'+(i+1).to_s+'.jpg') %>"></li>
+							<li class="uk-width-large-1-3 uk-width-medium-1-2 uk-width-small-1-1 uk-container-center"><img class="uk-responsive-height uk-responsive-width" src="<%= image_url('cops'+(i+1).to_s+'.jpg') %>"></li>
 						</div>
 						<% end %>
 					</ul>
 				</div>
     		<a href="" class="uk-slidenav uk-slidenav-contrast uk-slidenav-previous" data-uk-slider-item="previous"></a>
     		<a href="" class="uk-slidenav uk-slidenav-contrast uk-slidenav-next" data-uk-slider-item="next"></a>
+			</div>
 			</div>
 		</div>
 	</div>

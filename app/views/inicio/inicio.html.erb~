@@ -132,14 +132,16 @@ Algunas de las influencias mas fuertes en la música son Chuck Berry, Little Ric
 			<div style="padding-top:70px;" class="uk-slidenav-position" data-uk-slider>
 				<div class="uk-slider-container">
 					<ul class="uk-slider uk-grid-width-medium-1-1 uk-grid-width-small-1-1 uk-grid-width-large-1-1">
+<% if false %>
 						<% @vids.each do |v| %>
-<script>
-console.log("<%= v %>");
-</script>
 						<div class="uk-container slide">
-							<li class="uk-width-large-1-3 uk-width-medium-1-2 uk-width-small-1-1 uk-container-center"><iframe class="uk-responsive-height uk-responsive-width" src="<%= 'https://www.youtube.com/embed/'+v %>"></li>
+							<li class="uk-width-large-1-3 uk-width-medium-1-2 uk-width-small-1-1 uk-container-center"><iframe class="uk-responsive-height uk-responsive-width" src="https://www.youtube.com/embed/PYp2x3K6-uY"></li>
+						</div>
+						<div class="uk-container slide">
+							<li class="uk-width-large-1-3 uk-width-medium-1-2 uk-width-small-1-1 uk-container-center"><iframe class="uk-responsive-height uk-responsive-width" src="https://www.youtube.com/embed/akMR_u4dXgc"></li>
 						</div>
 						<% end %>
+<% end %>
 					</ul>
 				</div>
     		<a href="" class="uk-slidenav uk-slidenav-contrast uk-slidenav-previous" data-uk-slider-item="previous"></a>

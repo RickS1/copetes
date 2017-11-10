@@ -30,7 +30,9 @@ $(document).on("ready page:load",function(){
 
 	$("#out-v").on("click",function(){
 		$("#out-v").css({zIndex: "-1"});
-		$("#menu-list-v").css({zIndex: "-1", width: "0", height: "0", overflow: ""});
+		setTimeout(function(){
+			$("#menu-list-v").css({zIndex: "-1", width: "0", height: "0", overflow: ""});
+		}, 500);
 		$("#menu-list-v .op-menu").css({opacity: "0"});
 		$("#menu-v").css({	
 			width: "0px",

@@ -167,7 +167,8 @@ ul { padding-left: 0; }
 
 #menu-list-v{
 	z-index: -1;
-	overflow: hidden;
+	overflow: visible;
+	line-height: 2.3em;
 	-webkit-transition: all 0.5s linear;
 	-moz-transition: all 0.5s linear;
 	-o-transition: all 0.5s linear;

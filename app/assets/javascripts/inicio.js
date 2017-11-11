@@ -76,7 +76,8 @@ $(window).on("scroll",function(){
 $(window).on("resize",function(){
 	var w_height = $("#background").height();
 	var reels = $(".reel"), scraps = $(".scrap-sheet"), grays = $(".pic-gray"), seps = $(".pic-sepia"), pics = $(".photo");
-	if($(".uk-modal").css("display") =="block"){
+	$("
+	if($(".uk-modal").css("display") == "block"){
 		escalarLightbox();
 	}
 	$("#menu-list").width(ancho_m);
@@ -145,8 +146,10 @@ $(window).on("resize",function(){
 
 function escalarLightbox(){
 	var ancho_v = Math.max(document.documentElement.clientWidth, window.innerWidth || document.body.ClientWidth || 0);
+	console.log(ancho_v);
 	var ancho_lightbox = (ancho_v*0.95 > 1390 ? 1390 : ancho_v*0.95)
 	var alto_lightbox = ancho_lightbox * 9 / 16;
+	console.log(ancho_lightbox + " -- " + alto_lightbox);
 	$("iframe").attr("height",alto_lightbox).attr("width",ancho_lightbox).css("height",alto_lightbox+"px");
 	$(".uk-modal-dialog-lightbox").css("width", ancho_lightbox +"px");
 	$(".uk-modal-dialog-lightbox").css("height",alto_lightbox+"px");

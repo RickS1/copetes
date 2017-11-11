@@ -42,12 +42,14 @@ $(document).on("ready page:load",function(){
 
 	$("#menu-list-v .op-menu").on("click",function(){
 		$("#out-v").css({zIndex: "-1"});
-		$("#menu-list-v").css({zIndex: "-1", width: "0", height: "0"});
+		setTimeout(function(){
+			$("#menu-list-v").css({zIndex: "-1", width: "0", height: "0", overflow: ""});
+			$("#menu-v").css({	
+				width: "0px",
+				height: "0px"
+			});
+		}, 500);
 		$("#menu-list-v .op-menu").css({opacity: "0"});
-		$("#menu-v").css({	
-			width: "0px",
-			height: "0px"
-		});
 	});
 	$(window).trigger("resize");
 });
@@ -137,6 +139,16 @@ $(window).on("resize",function(){
 	}, 300);
 	$(window).trigger("scroll");
 });
+
+function escalarLightbox(){
+	var ancho_v = Math.max(document.documentElement.clientWidth, window.innerWidth || document.body.ClientWidth || 0);
+	var ancho_lightbox = (ancho_v*0.95 > 1390 ? 1390 : ancho_v*0.95)
+	var alto_lightbox = ancho_lightbox * 9 / 16;
+	$("iframe").attr("height",alto_lightbox).attr("width",ancho_lightbox).css("height",alto_lightbox+"px");
+	$(".uk-modal-dialog-lightbox").css("width", ancho_lightbox +"px");
+	$(".uk-modal-dialog-lightbox").css("height",alto_lightbox+"px");
+	
+}
 
 function adjust(element,w,h){
 	var w_h = $(window).height(), w_w = $(window).width();

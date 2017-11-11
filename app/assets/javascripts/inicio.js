@@ -76,7 +76,9 @@ $(window).on("scroll",function(){
 $(window).on("resize",function(){
 	var w_height = $("#background").height();
 	var reels = $(".reel"), scraps = $(".scrap-sheet"), grays = $(".pic-gray"), seps = $(".pic-sepia"), pics = $(".photo");
-	escalarLightbox();
+	if($(".uk-modal").css("display") =="block"){
+		escalarLightbox();
+	}
 	$("#menu-list").width(ancho_m);
 	$("#b_wrapper").width($(window).width() - 60);
 	$("#inicio").css({

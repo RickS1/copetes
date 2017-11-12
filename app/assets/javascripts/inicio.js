@@ -1,6 +1,6 @@
 $(document).on("ready page:load",function(){
 	UIkit.init();
-	$("body").niceScroll({
+	$("#b_wrapper").niceScroll({
 		cursorwidth: "10px",
 		background: "rgba(150,150,150,0.6)",
 		cursorcolor: "red"

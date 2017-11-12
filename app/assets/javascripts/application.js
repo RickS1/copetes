@@ -15,7 +15,7 @@
 //= require turbolinks
 //= require jquery.nicescroll
 //= require uikit
-//= require_tree /core/.
-//= require_tree /components/.
+//= require_tree ./core
+//= require_tree ./components
 //= require inicio
 

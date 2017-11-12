@@ -290,6 +290,10 @@ a.uk-slidenav{
 
 .vid-link{
 	background-color: #B0C4DE;
+
+}
+
+.vid-link span{
 	color: #cc181e;
 }
 
@@ -299,10 +303,6 @@ a.uk-slidenav{
 	-moz-transition: all 0.5s linear;
 	-o-transition: all 0.5s linear;
 	transition: all 0.5s linear;
-}
-
-.img-vid:hover{
-	opacity: 0.5;
 }
 
 /* Sección de Galería */

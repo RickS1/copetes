@@ -53,7 +53,7 @@ $(document).on("ready page:load",function(){
 		$("#menu-list-v .op-menu").css({opacity: "0"});
 	});
 
-	$(".vid-link").on("mouseover",function(){
+	$(".vid-link").on("mouseenter",function(){
 		this.childNodes[0].style.opacity = "0.5";
 	});
 

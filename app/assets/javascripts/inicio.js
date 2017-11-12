@@ -1,6 +1,6 @@
 $(document).on("ready page:load",function(){
 	UIkit.init();
-	$("#b_wrapper").niceScroll({
+	$("body").niceScroll({
 		cursorwidth: "10px",
 		background: "rgba(150,150,150,0.6)",
 		cursorcolor: "red"
@@ -81,7 +81,7 @@ $(window).on("resize",function(){
 		escalarLightbox();
 	}
 	$("#menu-list").width(ancho_m);
-	$("#b_wrapper").width($(window).width() - 60);
+	//$("#b_wrapper").width($(window).width() - 60);
 	$("#inicio").css({
 		height: w_height + "px"
 	});

@@ -63,6 +63,17 @@ $(document).on("ready page:load",function(){
 		this.childNodes[0].style.opacity = "";
 	});
 
+	$(".vid-link span").on("mouseenter",function(){
+		this.parentNode.childNodes[1].style.opacity = "0.3";
+		this.style.opacity = "1";
+	});
+
+	$(".vid-link span").on("mouseout",function(){
+		this.parentNode.childNodes[1].style.opacity = "";
+		this.style.opacity = "";
+	});
+
+
 	$(window).trigger("resize");
 });
 

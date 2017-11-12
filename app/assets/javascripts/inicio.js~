@@ -55,10 +55,12 @@ $(document).on("ready page:load",function(){
 
 	$(".vid-link").on("mouseenter",function(){
 		this.childNodes[1].style.opacity = "0.3";
+		this.childNodes[0].style.opacity = "1";
 	});
 
 	$(".vid-link").on("mouseout",function(){
 		this.childNodes[1].style.opacity = "";
+		this.childNodes[0].style.opacity = "";
 	});
 
 	$(window).trigger("resize");

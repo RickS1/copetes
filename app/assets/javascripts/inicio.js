@@ -57,7 +57,7 @@ $(document).on("ready page:load",function(){
 		this.childNodes[0].style.opacity = "0.5";
 	});
 
-	$(".vid-link").on("mouseover",function(){
+	$(".vid-link").on("mouseout",function(){
 		this.childNodes[0].style.opacity = "";
 	});
 

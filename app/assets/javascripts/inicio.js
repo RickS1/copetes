@@ -53,7 +53,7 @@ $(document).on("ready page:load",function(){
 		$("#menu-list-v .op-menu").css({opacity: "0"});
 	});
 
-	$(".vid-link").on("mouseenter",function(){
+	$(".vid-link").on("mouseover",function(){
 		this.childNodes[1].style.opacity = "0.3";
 		this.childNodes[0].style.opacity = "1";
 	});
@@ -62,16 +62,6 @@ $(document).on("ready page:load",function(){
 		this.childNodes[1].style.opacity = "";
 		this.childNodes[0].style.opacity = "";
 	});
-
-	$(".vid-link span").on("mouseenter",function(){
-		this.parentNode.childNodes[1].style.opacity = "0.3";
-		this.style.opacity = "1";
-	});
-
-	$(".vid-link span").on("mouseout",function(){
-		$(this.parentNode).trigger("mouseenter");
-	});
-
 
 	$(window).trigger("resize");
 });

@@ -26,11 +26,7 @@ $(document).on("ready page:load",function(){
 			width: "280px",
 			height: "300px",
 		});
-
-	$(".vid-link").on("mouseover",function(){
-		console.log(this);
 	});
-});
 
 
 	$("#out-v").on("click",function(){
@@ -56,6 +52,11 @@ $(document).on("ready page:load",function(){
 		}, 500);
 		$("#menu-list-v .op-menu").css({opacity: "0"});
 	});
+
+	$(".vid-link").on("mouseover",function(){
+		console.log(this.childNodes);
+	});
+
 	$(window).trigger("resize");
 });
 

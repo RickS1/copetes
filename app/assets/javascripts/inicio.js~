@@ -28,7 +28,7 @@ $(document).on("ready page:load",function(){
 		});
 
 	$(".vid-link").on("mouseover",function(){
-		console.log(this.childNodes);
+		console.log(this);
 	});
 });
 

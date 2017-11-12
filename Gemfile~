@@ -6,6 +6,7 @@ gem 'rails', '4.2.8'
 # Use postgresql as the database for Active Record
 gem 'pg'
 # Use SCSS for stylesheets
+gem 'uikit-rails'
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
@@ -27,7 +28,7 @@ gem 'rails_12factor', group: :production
 
 gem 'nicescroll-rails'
 gem 'font-awesome-sass', '~> 4.7.0'
-gem 'rails-uikit-sass'
+
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'

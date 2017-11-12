@@ -54,7 +54,11 @@ $(document).on("ready page:load",function(){
 	});
 
 	$(".vid-link").on("mouseover",function(){
-		console.log(this.childNodes);
+		this.childNodes[0].style.opacity = "0.5";
+	});
+
+	$(".vid-link").on("mouseover",function(){
+		this.childNodes[0].style.opacity = "";
 	});
 
 	$(window).trigger("resize");

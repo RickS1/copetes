@@ -10,7 +10,7 @@ a, a:hover, a:visited, a:active, a:focus{
 	color: inherit;
 }
 
-body { margin-left: -2px; }
+/*body { margin-left: -2px; }*/
 
 p { color: #000; }
 p, span, div { line-height: normal !important; }

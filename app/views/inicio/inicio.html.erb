@@ -24,8 +24,10 @@
 	</ul>
 </div>
 <div id="cont-h" data-spy="scroll" data-target="#menu-list">
+<% if false %>
 <div class="body reel" style="left:0;">
 </div>
+<% end %>
 <div class="body wrapper" id="b_wrapper">
 	<div id="inicio" class="sect" style="padding-top:0 !important;">
 		<div id="main-img-w">
@@ -162,7 +164,11 @@
 					<ul class="uk-slider uk-grid-width-medium-1-2 uk-grid-width-small-1-1 uk-grid-width-large-1-2">
 						<% @vids.each do |v| %>
 						<div class="uk-container slide">
-							<li class="uk-container-center"><a href="<%= 'https://www.youtube.com/watch?v='+v %>" style="display:inline-block;" data-uk-lightbox title=""><img class="uk-responsive-height uk-responsive-width" src="<%= 'https://img.youtube.com/vi/'+v+'/0.jpg' %>"></img></a></li>
+							<li class="uk-container-center">
+								<div class="ghost-vid">
+									<a class="vid-link" href="<%= 'https://www.youtube.com/watch?v='+v %>" style="display:inline-block;" data-uk-lightbox title=""><img class="uk-responsive-height uk-responsive-width" src="<%= 'https://img.youtube.com/vi/'+v+'/0.jpg' %>"></img></a>
+								</div>
+							</li>
 						</div>
 						<% end %>
 					</ul>
@@ -211,9 +217,10 @@
 	</div>
 	</div>
 </div>
-
+<% if false %>
 <div class="body reel" style="right:0;">
 </div>
+<% end %>
 </div>
 
 <script> 

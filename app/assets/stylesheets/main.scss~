@@ -277,7 +277,7 @@ a.uk-slidenav{
 	color: #000;
 }
 
-#integrantes .text, #galeria .text, .text-bio { padding-bottom: 105px; }
+#integrantes .text, #galeria .text, #material.text, .text-bio { padding-bottom: 105px; }
 
 /* Sección de Material */
 
@@ -308,7 +308,7 @@ a.uk-slidenav{
 	-ms-transform: translate(-50%,-50%);
 	-o-transform: translate(-50%,-50%);
 	transform: translate(-50%,-50%);	
-	font-size: 45px;
+	font-size: 65px;
 }
 
 .img-vid{

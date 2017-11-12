@@ -161,7 +161,7 @@
 			<div class="text">
 			<div style="padding-top:70px;" class="uk-slidenav-position" data-uk-slider>
 				<div class="uk-slider-container" style="width:-webkit-calc(100% - 80px);width:-moz-calc(100% - 120px);width:calc(100% - 120px);margin:0 auto;">
-					<ul class="uk-slider uk-grid-width-medium-1-2 uk-grid-width-small-1-1 uk-grid-width-large-1-2">
+					<ul class="uk-slider uk-width-medium-1-2 uk-width-small-1-1 uk-width-large-1-2">
 						<% @vids.each do |v| %>
 						<div class="uk-container slide">
 							<li class="uk-container-center">

@@ -297,6 +297,12 @@ a.uk-slidenav{
 	color: #cc181e;
 	top: 50%;
 	left: 50%;
+	position: absolute;
+	opacity: 0;
+	-webkit-transition: all 0.5s linear;
+	-moz-transition: all 0.5s linear;
+	-o-transition: all 0.5s linear;
+	transition: all 0.5s linear;
 	-webkit-transform: translate(-50%,-50%);
 	-moz-transform: translate(-50%,-50%);
 	-ms-transform: translate(-50%,-50%);

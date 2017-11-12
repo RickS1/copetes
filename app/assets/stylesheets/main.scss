@@ -298,12 +298,17 @@ a.uk-slidenav{
 	top: 50%;
 	left: 50%;
 	position: absolute;
+	opacity: 0;
+	-webkit-transition: all 0.5s linear;
+	-moz-transition: all 0.5s linear;
+	-o-transition: all 0.5s linear;
+	transition: all 0.5s linear;
 	-webkit-transform: translate(-50%,-50%);
 	-moz-transform: translate(-50%,-50%);
 	-ms-transform: translate(-50%,-50%);
 	-o-transform: translate(-50%,-50%);
 	transform: translate(-50%,-50%);	
-	font-size: 45px;
+	font-size: 65px;
 }
 
 .img-vid{

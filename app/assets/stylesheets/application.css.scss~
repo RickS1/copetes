@@ -15,10 +15,8 @@
 @import "font-awesome-sprockets";
 @import "font-awesome";
 @import "fonts";
-@import "uikit-mixins";
-@import "uikit-variables";
 @import "uikit";
-@import "uikit-components";
+@import "uikit-rtl";
 @import "inicio";
 @import "scroll";
 @import "main";

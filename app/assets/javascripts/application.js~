@@ -14,5 +14,5 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require jquery.nicescroll
-//= require uikit-icons
+//= require uikit
 //= require inicio

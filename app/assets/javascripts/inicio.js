@@ -26,7 +26,11 @@ $(document).on("ready page:load",function(){
 			width: "280px",
 			height: "300px",
 		});
+
+	$(".vid-link").on("mouseover",function(){
+		console.log(this.childNodes);
 	});
+});
 
 
 	$("#out-v").on("click",function(){

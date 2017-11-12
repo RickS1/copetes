@@ -288,17 +288,12 @@ a.uk-slidenav{
 	box-shadow: 0px 38px 12px rgba(0,0,0,0.7);
 }
 
-.ghost-vid{
-	opacity: 1;
-	position: absolute;
-	top: 0;
-	left: 0;
+.vid-link{
 	background-color: #B0C4DE;
 	color: #cc181e;
-	display: inline-block;
 }
 
-.vid-link{
+.img-vid{
 	opacity: 1;
 	-webkit-transition: all 0.5s linear;
 	-moz-transition: all 0.5s linear;
@@ -306,7 +301,7 @@ a.uk-slidenav{
 	transition: all 0.5s linear;
 }
 
-.vid-link:hover{
+.img-vid:hover{
 	opacity: 0.5;
 }
 

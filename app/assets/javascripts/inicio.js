@@ -68,12 +68,6 @@ $(document).on("ready page:load",function(){
 		this.style.opacity = "1";
 	});
 
-	$(".vid-link span").on("mouseout",function(){
-		this.parentNode.childNodes[1].style.opacity = "";
-		this.style.opacity = "";
-	});
-
-
 	$(window).trigger("resize");
 });
 

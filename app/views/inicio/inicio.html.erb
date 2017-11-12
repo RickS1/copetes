@@ -165,9 +165,7 @@
 						<% @vids.each do |v| %>
 						<div class="uk-container slide">
 							<li class="uk-container-center">
-								<div class="ghost-vid">
-									<a class="vid-link" href="<%= 'https://www.youtube.com/watch?v='+v %>" style="display:inline-block;" data-uk-lightbox title=""><img class="uk-responsive-height uk-responsive-width" src="<%= 'https://img.youtube.com/vi/'+v+'/0.jpg' %>"></img></a>
-								</div>
+									<a class="vid-link" href="<%= 'https://www.youtube.com/watch?v='+v %>" style="display:inline-block;" data-uk-lightbox title=""><img class="uk-responsive-height uk-responsive-width img-vid" src="<%= 'https://img.youtube.com/vi/'+v+'/0.jpg' %>"></img></a>
 							</li>
 						</div>
 						<% end %>

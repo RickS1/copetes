@@ -35,6 +35,9 @@ a.uk-slidenav{
 }
 
 .wrap-cont{
+	width: -webkit-calc(100% - 120px);
+	width: -moz-calc(100% - 120px);
+	width: calc(100% - 120px);
 	max-width: 1200px;
 	margin: 0 auto;
 }
@@ -292,6 +295,7 @@ a.uk-slidenav{
 	left: 0;
 	background-color: #B0C4DE;
 	color: #cc181e;
+	display: inline-block;
 }
 
 .vid-link{

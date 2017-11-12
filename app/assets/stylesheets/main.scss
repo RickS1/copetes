@@ -35,6 +35,9 @@ a.uk-slidenav{
 }
 
 .wrap-cont{
+	width: -webkit-calc(100% - 120px);
+	width: -moz-calc(100% - 120px);
+	width: calc(100% - 120px);
 	max-width: 1200px;
 	margin: 0 auto;
 }
@@ -297,13 +300,18 @@ a.uk-slidenav{
 
 .vid-link{
 	opacity: 1;
+
+}
+
+.img-vid{
+	opacity: 1;
 	-webkit-transition: all 0.5s linear;
 	-moz-transition: all 0.5s linear;
 	-o-transition: all 0.5s linear;
 	transition: all 0.5s linear;
 }
 
-.vid-link:hover{
+.img-vid:hover{
 	opacity: 0.5;
 }
 

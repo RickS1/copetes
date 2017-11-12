@@ -69,8 +69,7 @@ $(document).on("ready page:load",function(){
 	});
 
 	$(".vid-link span").on("mouseout",function(){
-		this.parentNode.childNodes[1].style.opacity = "0.3";
-		this.style.opacity = "1";
+		$(this.parentNode).trigger("mouseenter");
 	});
 
 
